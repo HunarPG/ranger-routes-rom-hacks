@@ -572,15 +572,15 @@ Head to the right towards Rock Tunnel
   :::
   :::pokemon[Oddish]
     - Bite
-  :::
-  :::pokemon[Bellsprout]
-    - Bite
     :::if{source="Squirtle" condition="spatk=(x / x / 28)"}
     - 87.5% to OHKO
     :::
     :::if{source="Squirtle" condition="spatk=(x / x / 29-31)"}
     - 93.8% to OHKO
     :::
+  :::
+  :::pokemon[Bellsprout]
+    - Bite
   :::
 :::::
 
