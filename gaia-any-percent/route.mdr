@@ -1,0 +1,1507 @@
+:::tracker{species="Chimchar" baseStats="[[44, 58, 44, 58, 44, 61], [64, 78, 52, 78, 52, 81], [76, 104, 71, 104, 71, 108]]" type="Fire/Fighting" generation=3}
+  5:
+    6 ->	0, 0, 0, 1, 0, 0 # Piplup(1 SpAttack)
+    7 ->	0, 0, 0, 1, 0, 1 # Pidgey(1 Speed)
+    8 ->	0, 2, 0, 1, 0, 1 # Drilbur(1 Attack), Drilbur(1 Attack)
+    9 ->	0, 2, 0, 2, 0, 2 # Buneary(1 Speed), Mareep(1 SpAttack) 
+    10 ->	0, 3, 0, 3, 0, 2 # Ralts(1 SpAttack), Snubbull(1 Attack)
+    11 ->	2, 3, 0, 3, 1, 3 # Cleffa(1 SpDef), Azurill(1 HP), Igglybuff(1 HP), Cottonee(1 Speed)
+    12 ->	2, 4, 0, 3, 2, 3 # Flabebe(1 SpDef), Snubbull(1 Attack)
+    13 ->	3, 5, 1, 3, 2, 3 # Snubbull(1 Attack), Spritzee(1 HP), Swirlix(1 Defense)
+    14 ->	3, 5, 1, 3, 2, 3 
+    15 ->	7, 5, 1, 4, 2, 3 # Clefairy(2 HP), Ralts(1 SpAttack), Jigglypuff(2 HP)
+    16 ->	8, 5, 3, 4, 2, 5 # Weedle(1 Speed), Kakuna(2 Defense), Caterpie(1 HP), Surskit(1 Speed)
+    17 ->	9, 6, 3, 4, 2, 6 # Natu(1 SpAttack), Bunnelby(1 Speed), Hoothoot(1 HP)
+    18 ->	9, 6, 5, 5, 2, 6 # Natu(1 SpAttack), Roggenrola(1 Defense), Omanyte(1 Defense)
+    19 ->	9, 9, 5, 5, 2, 6 # Mankey(1 Attack), Timburr(1 Attack), Timburr(1 Attack)
+    20 ->	10, 10, 5, 6, 2, 6 # Croagunk(1 Attack), Munna(1 HP), Psyduck(1 SpAttack)
+    21 ->	10, 10, 5, 6, 2, 6 # 
+    22 ->	11, 10, 5, 6, 3, 6 # Makuhita(1 HP), Swablu(1 SpDef)
+    23 ->	11, 10, 6, 8, 3, 7 # Prinplup(2 SpAttack), Roggenrola(1 Defense), Murkrow(1 Speed)
+    24 ->	11, 11, 7, 8, 5, 7 # Togetic(2 SpDef), Vullaby(1 Defense), Chatot(1 Attack)
+    25 ->	11, 11, 9, 8, 5, 7 # Gligar(1 Defense), Tangela(1 Defense)
+    26 ->	12, 11, 11, 8, 5, 8 # Tangela(1 Defense), Yanma(1 Speed), Relicanth(1 HP + 1 Defense)
+    27 ->	13, 12, 11, 8, 6, 8 # Baltoy(1 SpDef), Diggersby(2 HP), Binacle(1 Attack)
+    28 ->	16, 13, 11, 8, 6, 10 # Snover(1 Attack), Noctowl(2HP), Amaura(1 HP), Froslass(2 Speed)
+    29 ->	16, 13, 11, 8, 6, 13 # Ponyta(1 Speed), Ponyta(1 Speed), Pansear(1 Speed)
+    30 ->	16, 13, 11, 9, 6, 20 # Charmeleon(1 SpAttack + 1 Speed), Staravia(2 Speed), Swellow(2 Speed), Pidgeotto(2 Speed)
+    31 ->	16, 14, 14, 10, 6, 21 # Xatu(1 SpAttack + 1 Speed), Boldore(1 Attack + 1 Defense), Nosepass(1 Defense), Bronzor(1 Defense)
+    32 ->	17, 15, 18, 10, 6, 21 # Graveler(2 Defense), Relicanth(1 HP + 1 Defense), Kabuto(1 Defense), Cranidos(1 Attack)
+    33 ->	19, 15, 18, 12, 6, 24 # Noctowl(2HP), Numel(1 SpAttack), Numel(1 SpAttack), Pansear(1 Speed), Simisear(2 Speed)
+    34 ->	19, 18, 18, 15, 6, 25 # Litleo(1 SpAttack), Monferno(1 SpAttack, 1 Speed), Pignite(2 Attack), Camerupt(1 Attack + 1 SpAttack)
+    35 ->	21, 18, 18, 19, 6, 26 # Magmar(2 SpAttack), Heatmor(2 SpAttack), Glameow(1 Speed), Diggersby(2 HP)
+    36 ->	21, 18, 18, 19, 6, 26 # 
+:::
+
+## Pokémon Gaia Any% Route
+
+Please DM me if you have any issues!
+
+Credits for these notes:
+  - Werster for his run which I took a lot of stuff from
+
+If the route does not say to learn a move explicitly, do not learn it.
+
+Before starting your run, make sure your save file has the following:
+  - Text: Fast
+  - Style: Set
+  - Button Mode: L=A
+
+# NEW GAME
+
+Give your character one character name(A is fastest)
+
+Take the Book from your desk then head downstairs
+
+Get running shoes from your mom then head south to Reliquia Ruins
+
+Talk to the old Lady
+- Say yes when prompted
+- Run back to the town then head to library
+
+Mash through text until you can pick Chimchar, Give it a one character name
+
+Minimum stats for Chimchar:-
+- HP :- Any
+- Attack :- 28+/13+/0+
+- Defense :- 4+/0+/0+
+- SpAttack :- 28+/13+/0+
+- SpDef :- 4+/0+/0+
+- Speed :- 28+/+/0+
+
+Make sure your Chimchar can survive Chatot's Flatter and preferably is faster too but not required
+
+::damage[Chatot's Chatter]{source="Chimchar" offensive=false movePower=65 level=23 evolution=1 opponentLevel=23 opponentStat=48 special=true stab=true type=flying}
+
+:::if{source="Chimchar" condition="hp=(x / 0 / x)"}
+  - Your HP while facing Chatot is 62
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 1-4 / x)"}
+  - Your HP while facing Chatot is 63
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 5-9 / x)"}
+  - Your HP while facing Chatot is 64
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 10-13 / x)"}
+  - Your HP while facing Chatot is 65
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 14-17 / x)"}
+  - Your HP while facing Chatot is 66
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 18-22 / x)"}
+  - Your HP while facing Chatot is 67
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 23-26 / x)"}
+  - Your HP while facing Chatot is 68
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 27-30 / x)"}
+  - Your HP while facing Chatot is 69
+:::
+
+:::if{source="Chimchar" condition="hp=(x / 31 / x)"}
+  - Your HP while facing Chatot is 70
+:::
+
+Give your starter and rival one character name(A is fastest)
+
+Exit the library
+- Head left to Arhcan town(run from all encounters)
+
+Go inside the house left of pokemon center
+- Open your bag and take open care package
+- Talk to proffesor to get Pokeballs and Potions
+
+Exit the house and head to mart
+
+Buy:-
+- 1 Potion
+- Max(7) Repels
+
+Leave and head left to fight your Rival
+
+Head down and fight your rival
+
+:::::trainer[Rival 1]
+  :::pokemon[Piplup]
+    - Leer + Scratch x3-4 
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-23 / 0-3)"}
+    - 1% to 3HKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 24-31 / 4-31)"}
+    - 91.4% to 3HKO
+    :::
+    ::damage[Piplup's Pound]{source="Chimchar" offensive=false movePower=40 level=5 opponentLevel=5 opponentStat=10 special=false stab=false type=normal}
+  :::
+:::::
+
+Enter Archan Tunnel
+- Use Potion 
+- Use Repel(Refresh until mentioned not to)
+
+Talk to the buy then go downstairs
+
+Go left go up near the Hiker
+- Avoid Hiker by bag manipping
+
+Go left and talk to fight the Youngster
+
+:::::trainer[Youngster Cory]
+  :::pokemon[Pidgey]
+    - Scratch x3-4
+    ::damage[Pidgey's Tackle]{source="Chimchar" offensive=false movePower=50 level=6 opponentLevel=4 opponentStat=8 special=false stab=true type=normal}
+  :::
+:::::
+
+Go downstairs
+- Avoid another Hiker Spinner
+- Turn left near the Scientist(not a trainer)
+
+Talk to hight the Ruin Maniac
+
+:::::trainer[Ruin Maniac Bob]
+  :::pokemon[Drilbur]
+    - Ember x2
+    :::if{source="Chimchar" condition="spatk=(28-31 / x / x)"}
+    - 99.6% to 2HKO
+    :::
+    ::damage[Drilbur's Scratch]{source="Chimchar" offensive=false movePower=40 level=7 opponentLevel=3 opponentStat=10 special=false stab=false type=normal}
+  :::
+  :::pokemon[Drilbur]
+    - Ember x2
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-26 / 0-12)"}
+    - 87.9% to 2HKO without Blaze
+    :::
+    ::damage[Drilbur's Scratch]{source="Chimchar" offensive=false movePower=40 level=7 opponentLevel=4 opponentStat=11 special=false stab=false type=normal}
+  :::
+:::::
+
+Go down and take the first turn right and leave Archan Tunnel
+
+After talking to the Rival and proffesor head left
+- Go through the Grass and talk to the Youngster to fight him
+
+:::::trainer[Youngster Jenson]
+  :::pokemon[Buneary]
+    - Ember x2
+    ::damage[Buneary's Pound]{source="Chimchar" offensive=false movePower=40 level=8 opponentLevel=4 opponentStat=10 special=false stab=true type=normal}
+  :::
+  :::pokemon[Mareep]
+    - Ember x2-3
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-21 / 0-8)"}
+    - 68.4% to 2HKO without Blaze
+    :::
+    ::damage[Mareep's Tackle]{source="Chimchar" offensive=false movePower=50 level=8 opponentLevel=5 opponentStat=9 special=false stab=false type=normal}
+  :::
+:::::
+
+Go Up and fight the lass by talking to her
+
+:::::trainer[Lass Lanessa]
+  :::pokemon[Ralts]
+    - Ember(x2)
+    :::if{source="Chimchar" condition="spatk=(28 / x / x)"}
+    - 0% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(29-31 / 13-28 / 0-17)"}
+    - 6.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 29-31 / 18-31)"}
+    - 56.3% to OHKO without Blaze
+    :::
+    ::damage[Ralts's Confusion]{source="Chimchar" offensive=false movePower=50 level=9 opponentLevel=4 opponentStat=8 special=true stab=true type=normal}
+  :::
+  :::pokemon[Snubbull]
+    - Ember x2
+    :::if{source="Chimchar" condition="spatk=(28 / x / x)"}
+    - 12.1% to 2HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(29-31 / 13-28 / 0-17)"}
+    - 93.8% to 2HKO wihtout Blaze
+    :::
+    ::damage[Snubbull's Tackle]{source="Chimchar" offensive=false movePower=50 level=9 opponentLevel=5 opponentStat=13 special=false stab=false type=normal}
+  :::
+:::::
+
+Return Back to the Town
+- Don't refresh Repel from now on
+
+Heal at Pokemon center
+
+Head to your Rival's house(right to the gym) and go upstairs
+- Grab hidden Rare Candy on his table(near PC)
+- Leave and go to the gym
+
+You need to use a lot of Embers in the gym if you can kill opponent with Scratch(it's at low/very low hp) go for Scratch to save PP
+
+Go straight up take the warp
+- Immediately move one tile to the left then go up and talk to fight the girl
+
+:::::trainer[Fairy Tale Rosa]
+  :::pokemon[Cleffa]
+    - Ember x2
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-23 / 0-13)"}
+    - 93.8% to 2HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 24-31 / 14-31)"}
+    - 100% to OHKO without Blaze
+    :::
+  :::
+  :::pokemon[Azurill]
+    - Ember x2-3
+  :::
+  :::pokemon[Igglybuff]
+    - Ember x2
+  :::
+:::::
+
+Take the left warp then talk to the girl to fight her
+
+:::::trainer[Aroma Girl Courtney]
+  :::pokemon[Cottonee]
+    - Ember(x2)
+    :::if{source="Chimchar" condition="spatk=(x / 13 / 0-3)"}
+    - 6.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(28-31 / 14-31 / 4-23)"}
+    - 75% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 24-31)"}
+    - 100% to OHKO without Blaze
+    :::
+  :::
+  :::pokemon[Flabebe]
+    - Scratch/Ember x3-4
+    - Use depending on which of your attack is higher(even with higher spatk Scratch is likely to be better)
+  :::
+:::::
+
+Go down and take the warp
+- Talk to fight the Youngster
+
+:::::trainer[Youngster Daz]
+  :::pokemon[Snubbull]
+    - Ember* (x2)
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-20 / 0-11)"}
+    - 6.3% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 21-31 / 12-20)"}
+    - 75% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 21-31)"}
+    - 100% to OHKO with Blaze
+    :::
+  :::
+  :::pokemon[Snubbull]
+    - Ember* (x2)
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-25 / 0-8)"}
+    - 0% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 26-31 / 9-17)"}
+    - 6.3% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 18-25)"}
+    - 37.5% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 26-31)"}
+    - 68.8% to OHKO with Blaze
+    :::
+  :::
+:::::
+
+Talk to the girl to figh her
+
+:::::trainer[Fairy Tale Hanako]
+  :::pokemon[Spritzee]
+    - Ember*2-3(x4)
+  :::
+  :::pokemon[Swirlix]
+    - Ember*2-3(x4)
+  :::
+:::::
+
+Open Bag
+- Use Potion
+- Use Rare Candy to evolve into Monferno
+- Learn Mach Punch over Leer
+
+Go down and take the warp
+- Go up and fight the Gym Leader
+
+:::::trainer[Leader Fernando]
+  :::pokemon[Clefairy]
+    - Ember spam
+    ::damage[Clefairy's Charming Cry]{source="Chimchar" offensive=false movePower=40 level=14 evolution=1 opponentLevel=11 opponentStat=19 special=true stab=true type=normal}
+  :::
+  :::pokemon[Ralts]
+    - Ember x2
+    ::damage[Ralts's Confusion]{source="Chimchar" offensive=false movePower=50 level=14 evolution=1 opponentLevel=11 opponentStat=16 special=true stab=true type=psychic}
+  :::
+  :::pokemon[Jigglypuff]
+    - Ember x2-3
+    - Switch to Scratch if out of PP
+    ::damage[Jigglypuff's Charming Cry]{source="Chimchar" offensive=false movePower=40 level=14 evolution=1 opponentLevel=11 opponentStat=19 special=true stab=true type=normal}
+    ::damage[Jigglypuff's Pound]{source="Chimchar" offensive=false movePower=40 level=14 evolution=1 opponentLevel=13 opponentStat=19 special=false stab=true type=normal}
+  :::
+:::::
+
+Go up and leave the Gym
+- Head to Pokemon center and heal(Can skip if enough Ember PP for next section but you need to center later anyway)
+- Then head to forest(Use Repel before the grass)
+
+Grab this Nest ball before entering forest
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099296685101944984/Gaia_Nest_Ball.png)
+
+After Enter forest go right then down and talk to fight the bug Catcher
+
+:::::trainer[Bug Catcher Dmitri]
+  :::pokemon[Weedle]
+    - Ember
+  :::
+  :::pokemon[Kakuna]
+    - Ember
+  :::
+:::::
+
+Grab this Super Potion(Optional)
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099297375568273478/pokemon_gaia_v3.2-0.png)
+
+Do not refresh the Repel
+
+Go a little up Immediately turn left
+- Then up and right to Fernando
+
+Leave the Daycare
+- Teach Cut to Monferno over Scratch(Also register TM Case)
+
+Go near the Archn Tunnel exit and left
+- Cut the tree near entrance of the next cave and go inside
+
+Leave after talking to proffesor
+
+Head right to Aerous Road
+- Use repel on the Bag manip to avoid Youngster
+
+Go right and talk to the Bug Catcher to fight him
+
+:::::trainer[Bug Catcher Michael]
+  :::pokemon[Caterpie]
+    - Ember
+  :::
+  :::pokemon[Surskit]
+    - Cut(x2)
+    - Do not learn Fury Swipes
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-16 / 0-2)"}
+    - 0% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 17-22 / 0-9)"}
+    - 6.3% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 23-29 / x)"}
+    - 25% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 30-31 / 10-16)"}
+    - 43.8% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 17-22)"}
+    - 56.3% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 23-29)"}
+    - 75% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 30-31)"}
+    - 87.5% to OHKO
+    :::
+  :::
+:::::
+
+Go on the Bridge skip the first up turn and take the next one 
+
+Grab this X Attack
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099300996200534126/pokemon_gaia_v3.2-0.png)
+
+Enter the town and go straight towards the Museum
+
+:::::trainer[Museum Clerk]
+  :::pokemon[Natu]
+    - Cut/Ember x2(x3)
+    :::if{source="Chimchar" condition="atk=(28-30 / x / x)"}
+    - 4.3% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(31 / x / x)"}
+    - 41.4% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-24 / 0-7)"}
+    - 90.2% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 25-31 / 8-31)"}
+    - 99.6% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 31.3% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-30 / 0-11)"}
+    - 94.1% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 12-31)"}
+    - 100% to 2HKO with Ember without Blaze
+    :::
+    ::damage[Natu's Peck]{source="Chimchar" offensive=false movePower=35 level=16 evolution=1 opponentLevel=14 opponentStat=20 special=false stab=true type=flying}
+  :::
+  :::pokemon[Bunnelby]
+    - Mach Punch
+  :::
+:::::
+
+Use Potion(if took damage) and enter the Museum
+- Go left and fight the Grunt by talking to him
+
+:::::trainer[Mysteriou Grunt 1]
+  :::pokemon[Hoothoot]
+    - Mach Punch x2
+    ::damage[Hoothoot's Peck]{source="Chimchar" offensive=false movePower=35 level=17 evolution=1 opponentLevel=15 opponentStat=14 special=false stab=true type=flying}
+  :::
+  :::pokemon[Natu]
+    - Cut/Ember x2(x3)
+    - Ember + Ember* will Always kill
+    :::if{source="Chimchar" condition="atk=(28-31 / 13 / x)"}
+    - 4.3% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 14-25 / 0-7)"}
+    - 41.4% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-19)"}
+    - 82% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 20-31)"}
+    - 98.4% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 0% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-25 / 0-7)"}
+    - 5.9% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-25)"}
+    - 69.5% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 26-31)"}
+    - 98.4% to 2HKO with Ember without Blaze
+    :::
+    ::damage[Natu's Peck]{source="Chimchar" offensive=false movePower=35 level=17 evolution=1 opponentLevel=15 opponentStat=20 special=false stab=true type=flying}
+  :::
+:::::
+
+Go upstairs and talk to fight the next Grunt
+
+:::::trainer[Mysteriou Grunt 2]
+  :::pokemon[Roggenrola]
+    - Mach Punch x2
+    ::damage[Roggenrola's Headbutt]{source="Chimchar" offensive=false movePower=70 level=17 evolution=1 opponentLevel=15 opponentStat=20 special=false stab=false type=normal}
+  :::
+:::::
+
+:::::trainer[Mysteriou Grunt 3]
+  :::pokemon[Omanyte]
+    - Mach Punch x2
+    ::damage[Omanyte's Water Gun]{source="Chimchar" offensive=false movePower=40 level=17 evolution=1 opponentLevel=15 opponentStat=32 special=true stab=true type=Water}
+  :::
+:::::
+
+After talking to Herschel leave the Museum then head left and up towards the mart
+- Talk to this lady to recieve the Revival herb and then leave the town through the west exit(Say yes to Herschel)
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099308579925798952/Revival_Herb.png)
+
+After talking to proffesor Immediately leave and go to the mart
+
+Buy:-
+- 5 Super Potion
+- 5 Repels
+
+Head back to Arhcan Tunnel
+- Use Repel after entering(refresh until mentioned)
+
+Go all the way back until you see rock smash rocks near the Pidgey trainer you fought(while teaching Rock Smash over Taunt on a bag manip)
+- Smash the rocks and head right
+
+Grab this Super Potion before going upstairs
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099310552423088158/Arhcan_Tunnel_Super_Potion.png)
+
+Now go upstairs grab the Rare Candy
+- Jump down the ledge and go to South East part of the town
+- Cut the tree and grab TM for Rock Tomb after following the narrow path(Can grab the Super Potion near the narrow path for safety)
+- Exit Immediately(do not refresh repel)
+
+Head back towards your home town
+- Run through the grass and catch a bidoof/zigzagoon(throw nest ball at full hp)
+
+Go right and go up instead of jumping the ledge
+
+Smash the rocks and head up
+- Take a right turn near the cave entrance
+
+Talk to the girl to fight her
+
+:::::trainer[Battle Girl Martha]
+  :::pokemon[Mankey]
+    - Ember/Mach Punch x2
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-20 / 0-4)"}
+    - 5.9% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 21-31 / 5-15)"}
+    - 59% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 16-31)"}
+    - 96.5% to 2HKO with Ember without Blaze
+    :::
+    ::damage[Mankey's Karate Chop]{source="Chimchar" offensive=false movePower=50 level=18 evolution=1 opponentLevel=17 opponentStat=35 special=false stab=false type=fighting}
+  :::
+  :::pokemon[Timburr]
+    - Ember x2(x3)
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-15 / 0-4)"}
+    - 0% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 16-26 / 0-9)"}
+    - 4.3% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 27-31 / 10-20)"}
+    - 41.3% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 21-31)"}
+    - 90.2% to 2HKO with Ember without Blaze
+    :::
+    ::damage[Timburr's Low Kick]{source="Chimchar" offensive=false movePower=40 level=18 evolution=1 opponentLevel=17 opponentStat=32 special=false stab=false type=fighting}
+  :::
+:::::
+
+Use Repel before entering Grass
+
+Grab this Hidden Charcoal 
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099316071162466464/Charcoal.png)
+
+Go up then left then up and Heal before fighting next trainer also Equip Charcoal
+
+:::::trainer[Black Belt Ralph]
+  :::pokemon[Timburr]
+    - Ember x2-3
+    - Learn Flame Wheel over Ember
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-15 / 0-4)"}
+    - 4.3% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 16-26 / 0-9)"}
+    - 41.3% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 27-31 / 10-20)"}
+    - 82% to 2HKO with Ember without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 21-31)"}
+    - 98.4% to 2HKO with Ember without Blaze
+    :::
+    ::damage[Timburr's Low Kick]{source="Chimchar" offensive=false movePower=40 level=18 evolution=1 opponentLevel=18 opponentStat=33 special=false stab=false type=fighting}
+  :::
+  :::pokemon[Croagunk]
+    - Flame Wheel*(x2)
+  :::
+:::::
+
+Go up the stairs then go through the grass to avoid the trainer
+
+Head towards Frostbite Cave(South East part of town) and use Super Potion after entering
+
+Talk to fight the psychic trainer
+
+:::::trainer[Psychic Morton]
+  :::pokemon[Munna]
+    - Cut + Super Potion(until it doesn't attack) + Cut
+  :::
+  :::pokemon[Psyduck]
+    - Rock Smash x2
+  :::
+:::::
+
+Use Rare Candy to level 21
+- Heal if at low HP
+
+:::::trainer[Psychic Finley]
+  :::pokemon[Solrock]
+    - Cut x2(x3)
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-18 / x)"}
+    - 64.8% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 19-31 / 0-13)"}
+    - 97.3% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 14-31)"}
+    - 100% to 2HKO with Cut
+    :::
+  :::
+:::::
+
+Leave the cave
+- Head to move deleter's house(first house while entering from left in the town)
+- Delete Cut
+
+Head towards the gym
+- Heal and Teach Rock Tomb before fighting rival
+
+:::::trainer[Rival 2]
+  :::pokemon[Makuhita]
+    - X Attack + Rock Smash
+  :::
+  :::pokemon[Swablu]
+    - Rock Tomb/Flame Wheel
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 18.8% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
+    - 37.5% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
+    - 50% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 15-24 / 0-5)"}
+    - 75% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 25-31 / 6-31)"}
+    - 100% to OHKO with Flame Wheel
+    :::
+  :::
+  :::pokemon[Prinplup]
+    - Rock Smash x2
+    ::damage[Prinplup's Bubble]{source="Chimchar" offensive=false movePower=40 level=22 evolution=1 opponentLevel=22s opponentStat=44 special=true stab=true type=Water}
+  :::
+  :::pokemon[Roggenrola]
+    - Flame Wheel + Rock Smash
+    - Heal if below 20 HP
+  :::
+:::::
+
+Enter the gym
+- Heal if low before next trainer
+
+Immediately turn left go up and left towards the left most trainer
+
+Solve the Puzzle in front of him
+- R, L, R, M, R, L, R, M
+- R = right, M = middle, L = left
+- Talk to fight him
+
+:::::trainer[Bird Keep Peter]
+  :::pokemon[Murkrow]
+    - Flame Wheel/Rock Tomb
+    - Rock Tomb always kills(if it hits)
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 37.5% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(29-31 / 13-14 / 0-1)"}
+    - 56.3% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 15-19 / x)"}
+    - 81.3% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-31 / 2-31)"}
+    - 100% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="speed=(28-31 / x / x)"}
+    - You are speed tied with Murkrow
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 12-31 / 0-31)"}
+    - You are faster than Murkrow
+    :::
+    ::damage[Murkrow's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=22 evolution=1 opponentLevel=19 opponentStat=37 special=false stab=true type=flying}
+  :::
+  :::pokemon[Togetic]
+    - Flame Wheel x2-3
+    ::damage[Togetic's Fairy Wind]{source="Chimchar" offensive=false movePower=40 level=23 evolution=1 opponentLevel=19 opponentStat=35 special=true stab=true type=electric}
+  :::
+:::::
+
+Heal before gym Leader Aria
+
+:::::trainer[Gym Leader Aria]
+  :::pokemon[Vullaby]
+    - Rock Tomb x2
+    - You are always slower after a Scary Face
+    ::damage[Vullaby's Aerial Ace]{source="Chimchar" offensive=false movePower=60 level=23 evolution=1 opponentLevel=21 opponentStat=28 special=false stab=true type=flying}
+  :::
+  :::pokemon[Chatot]
+    - Rock Tomb x2
+    - If you got growled or confused switch out and switch back in 
+    :::if{source="Chimchar" condition="speed=(28-31 / 12-19 / 0-2)"}
+    - You are slower
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 20-23 / 3-6)"}
+    - You are speed tied
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 23-31 / 7-31)"}
+    - You are faster
+    :::
+    ::damage[Chatot's Chatter]{source="Chimchar" offensive=false movePower=65 level=23 evolution=1 opponentLevel=23 opponentStat=48 special=true stab=true type=flying}
+  :::
+  :::pokemon[Gligar]
+    - Spam Flame Wheel
+    - Flame Wheel + Flame Wheel* always kills
+    ::damage[Gligar's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=24 evolution=1 opponentLevel=21 opponentStat=36 special=false stab=false type=normal}
+  :::
+:::::
+
+Leave the Gym and go to the Mart
+
+Buy:-
+ - 1 Super Potion
+ - 3 Super Repel
+
+Head to Frostbite Cave
+- Use Super Repel after entering(Refresh until mentioned)
+
+Grab this hidden Ether
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1099986881812365365/frostbite_ether.png)
+
+Go through the cave
+- Pass both grunt spinners
+- Go through the ice Puzzle
+
+Talk to the grunt to fight him
+
+:::::trainer[New Elders Grunt 1]
+  :::pokemon[Tangela]
+    - Flame Wheel*(+Mach Punch)
+    - Range to OHKO without Blaze
+  :::
+  :::pokemon[Tangela]
+    - Flame Wheel*(+Mach Punch)
+    - Range to OHKO without Blaze
+  :::
+:::::
+
+Go upstairs after fighting him
+
+:::::trainer[New Elders Grunt 2]
+  :::pokemon[Yanma]
+    - Flame Wheel
+    - It has Quick Attack
+  :::
+  :::pokemon[Relicanth]
+    - Rock Smash x2(x3)
+    ::damage[Relicanth's AncientPower]{source="Chimchar" offensive=false movePower=60 level=25 evolution=1 opponentLevel=21 opponentStat=42 special=false stab=true type=rock}
+    ::damage[Relicanth's Water Gun]{source="Chimchar" offensive=false movePower=40 level=25 evolution=1 opponentLevel=21 opponentStat=23 special=true stab=true type=Water}
+  :::
+:::::
+
+Solve the second Ice Puzzle
+
+Go upstairs and talk to fight the Admin
+- Heal to full before fighting
+
+:::::trainer[New Elders Grunt 3]
+  :::pokemon[Baltoy]
+    - Flame Wheel
+  :::
+  :::pokemon[Diggersby]
+    - Rock Smash(+Mach Punch)
+  :::
+  :::pokemon[Binacle]
+    - Rock Smash
+  :::
+:::::
+
+:::::trainer[Elder Knight Eunice]
+  :::pokemon[Snover]
+    - Rock Smash
+  :::
+  :::pokemon[Noctowl]
+    - Flame Wheel x2(x3 if Noctowl used Reflect)
+    :::if{source="Chimchar" condition="atk=(28-29 / x / x)"}
+    - 79.3% to 2HKO
+    :::
+    :::if{source="Chimchar" condition="atk=(30-31 / x / x)"}
+    - 98% to 2HKO
+    :::
+    ::damage[Noctowl's Peck]{source="Chimchar" offensive=false movePower=35 level=27 evolution=1 opponentLevel=24 opponentStat=29 special=false stab=true type=flying}
+    ::damage[Noctowl's Confusion]{source="Chimchar" offensive=false movePower=50 level=27 evolution=1 opponentLevel=24 opponentStat=37 special=true stab=false type=Psychic}
+  :::
+  :::pokemon[Amaura]
+    - Rock Smash(x2 if Noctowl used Reflect)
+  :::
+  :::pokemon[Frosslas]
+    - Flame Wheel*(x2-3 if missed the range or Reflect)
+    :::if{source="Chimchar" condition="speed=(28-31 / 12-25 / 0-7)"}
+    - You are slower
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 26-27 / 8-10)"}
+    - You are slower
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 28-31 / 11-31)"}
+    - You are faster
+    :::
+    :::if{source="Chimchar" condition="atk=(28-29 / x / x)"}
+    - 6.3% to OHKO without Blaze and Reflect(or with Blaze as well as Reflect)
+    - 23.4% to 2HKO without Blaze but with Reflect
+    :::
+    :::if{source="Chimchar" condition="atk=(30-31 / x / x)"}
+    - 37.5% to OHKO without Blaze and Reflect(or with Blaze as well as Reflect)
+    - 71.4% to 2HKO without Blaze but with Reflect
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-22 / 0-7)"}
+    - 56.3% to OHKO without Blaze and Reflect(or with Blaze as well as Reflect)
+    - 75.4% to 2HKO without Blaze but with Reflect
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 23-29 / 8-11)"}
+    - 81.3% to OHKO without Blaze and Reflect(or with Blaze as well as Reflect)
+    - 100% to 2HKO without Blaze but with Reflect
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 30-31 / 12-31)"}
+    - 100% to OHKO without Blaze and Reflect(or with Blaze as well as Reflect)
+    - 100% to 2HKO without Blaze but with Reflect
+    ::damage[Froslass's Draining Kiss]{source="Chimchar" offensive=false movePower=50 level=27 evolution=1 opponentLevel=24 opponentStat=4 special=true stab=false type=electric}
+    :::
+  :::
+:::::
+
+Leave the Frostbite Cave
+
+Go up towards Pokemon center and enter the house right of pokemon center
+
+Buy:-
+- 6 Fresh Water
+- 5 Lava Cookie
+
+**You need to buy from the bottom vendor(Hiker)**
+
+Head north after exiting
+
+Menu before the Grass and heal to full
+
+:::::trainer[Kindler Milan]
+  :::pokemon[Ponyta]
+  - Rock Tomb
+  :::
+  :::pokemon[Ponyta]
+  - Rock Tomb
+  :::
+:::::
+
+Go through the route avoiding all optional trainers
+
+:::::trainer[Kindler Brandon]
+  :::pokemon[Pansear]
+    - Rock Tomb
+    - Do not learn Torment
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 81.3% to OHKO
+    :::
+  :::
+  :::pokemon[Charmeleon]
+    - Rock Tomb(+Mach Punch)
+    :::if{source="Chimchar" condition="atk=(28-31 / 13 / x)"}
+    - 31.3% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 14-20 / 0-3)"}
+    - 50% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 21-27 / 4-9)"}
+    - 68.8% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 28-30 / 10-13)"}
+    - 87.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 14-31)"}
+    - 100% to OHKO
+    :::
+  :::
+:::::
+
+:::::trainer[Explorer Olympia]
+  :::pokemon[Staravia]
+    - Flame Wheel x2
+    ::damage[Staravia's Aerial Ace]{source="Chimchar" offensive=false movePower=60 level=29 evolution=1 opponentLevel=23 opponentStat=39 special=false stab=true type=flying}
+    ::damage[Staravia's Quikck Attack]{source="Chimchar" offensive=false movePower=40 level=29 evolution=1 opponentLevel=23 opponentStat=39 special=false stab=true type=normal}
+  :::
+  :::pokemon[Swellow]
+    - Flame Wheel x2
+    :::if{source="Chimchar" condition="speed=(28-31 / x / x)"}
+    - You are slower
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 12-31 / 0-31)"}
+    - You are faster
+    :::
+    ::damage[Swellow's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=29 evolution=1 opponentLevel=23 opponentStat=44 special=false stab=true type=flying}
+    ::damage[Swellow's Quikck Attack]{source="Chimchar" offensive=false movePower=40 level=29 evolution=1 opponentLevel=23 opponentStat=44 special=false stab=true type=normal}
+  :::
+  :::pokemon[Pidgeotto]
+    - Flame Wheel x2
+    ::damage[Pidgeotto's Gust]{source="Chimchar" offensive=false movePower=40 level=29 evolution=1 opponentLevel=23 opponentStat=30 special=true stab=true type=flying}
+  :::
+:::::
+
+Go up get your team healed
+
+:::::trainer[New Elders Grunt 1]
+  :::pokemon[Xatu]
+    - Rock Tomb(+Flame Wheel)
+    ::damage[Xatu's Peck]{source="Chimchar" offensive=false movePower=35 level=30 evolution=1 opponentLevel=23 opponentStat=40 special=false stab=true type=flying}
+  :::
+  :::pokemon[Boldore]
+    - Mach Punch(+ Rock Smash)
+  :::
+:::::
+
+:::::trainer[New Elders Grunt 2]
+  :::pokemon[Nosepass]
+    - Mach Punch x2
+  :::
+  :::pokemon[Bronzor]	
+    - Flame Wheel(+Mach Punch)
+    :::if{source="Chimchar" condition="atk=(28-30 / x / x)"}
+    - 68.8% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(31 / 13-17 / 0)"}
+    - 87.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 18-31 / 1-3)"}
+    - 100% to OHKO
+    :::
+  :::
+:::::
+
+:::::trainer[New Elders Grunt 3]
+  :::pokemon[Graveler]
+    - Mach Punch x2
+    ::damage[Graveler's Bulldoze]{source="Chimchar" offensive=false movePower=60 level=31 evolution=1 opponentLevel=23 opponentStat=40 special=false stab=true type=ground}
+  :::
+  :::pokemon[Relicanth]
+    - Rock Smash x2-3
+    ::damage[Relicanth's AncientPower]{source="Chimchar" offensive=false movePower=60 level=31 evolution=1 opponentLevel=21 opponentStat=46 special=false stab=true type=rock}
+    ::damage[Relicanth's Water Gun]{source="Chimchar" offensive=false movePower=40 level=31 evolution=1 opponentLevel=25 opponentStat=23 special=true stab=true type=Water}
+  :::
+:::::
+
+Enter the temple
+
+:::::trainer[New Elders Grunt 4]
+  :::pokemon[Kabuto]
+    - Rock Smash
+  :::
+  :::pokemon[Cranidos]
+    - Rock Smash
+  :::
+:::::
+
+Go from left side
+
+:::::trainer[New Elders Grunt 5]
+  :::pokemon[Noctowl]
+    - Flame Wheel*(x2)
+    ::damage[Noctowl's Peck]{source="Chimchar" offensive=false movePower=35 level=27 evolution=1 opponentLevel=24 opponentStat=29 special=false stab=true type=flying}
+    ::damage[Noctowl's Confusion]{source="Chimchar" offensive=false movePower=50 level=27 evolution=1 opponentLevel=24 opponentStat=46 special=true stab=false type=Psychic}
+  :::
+:::::
+
+Talk to the Elder Knight 
+- Get your party healed
+- Talk to the Book
+- Leave pokemon center and head to the gym
+
+:::::trainer[Kindler Hector]
+  :::pokemon[Numel]
+    - Rock Smash(+Mach Punch)
+  :::
+  :::pokemon[Numel]
+    - Rock Smash(+Mach Punch)
+  :::
+:::::
+
+:::::trainer[Kindler Barry]
+  :::pokemon[Pansear]
+    - Rock Tomb
+  :::
+  :::pokemon[Numel]
+    - Rock Tomb(+ Mach Punch)/Rock Smash x2
+  :::
+:::::
+
+:::::trainer[Kindler Amit]
+  :::pokemon[Litleo]
+    - Rock Smash/Mach Punch
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 62.5% to OHKO with Mach Punch
+    :::
+    :::if{source="Chimchar" condition="atk=(29-31 / 13 / x)"}
+    - 81.3% to OHKO with Mach Punch
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 14-31 / 0-31)"}
+    - 100% to OHKO with Mach Punch
+    :::
+  :::
+  :::pokemon[Monferno]
+    - Mach Punch x2
+  :::
+:::::
+
+**All Rock Smash ranges in the next Battles are only correct if you don't get the defense drop f you do the ranges are 100%**
+
+**Also it's really hard do die in the next fight unless you you get a High Power Magnitude from Camerupt**
+
+:::::trainer[Leader Nina]
+  :::pokemon[Pignite]
+    - Rock Smash x2-3
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 5.1% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
+    - 35.5% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-19 / 0-4)"}
+    - 59% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-25 / 5-7)"}
+    - 90.2% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-14)"}
+    - 98% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 14-31)"}
+    - 100% to OHKO with Rock Smash
+    :::
+  :::
+  :::pokemon[Camerupt]
+    - Rock Smash (+Flame Wheel) + Rock Smash
+    ::damage[Camerupt's Rock Slide]{source="Chimchar" offensive=false movePower=75 level=3 evolution=1 opponentLevel=28 opponentStat=64 special=false stab=false type=rock}
+  :::
+  :::pokemon[Magmar]
+    - Rock Tomb(+Mach Punch)
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 0% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(29-31 / 13 / x)"}
+    - 12.5% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 14-19 / 0-1)"}
+    - 31.3% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-25 / 2-7)"}
+    - 43.8% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-13)"}
+    - 56.3% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 14-16)"}
+    - 75% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 17-22)"}
+    - 87.5% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 23-31)"}
+    - 100% to OHKO 
+    :::
+  :::
+  :::pokemon[Heatmor]
+    - Rock Smash + Rock Smash/Rock Tomb
+    - Use Rock Tomb turn 2 if no Defense drop
+  :::
+:::::
+
+Exit the Gym
+- **Say yes to proffesor**
+
+Go up to the Mart
+
+Buy:-
+- 2 Ultra Balls
+- 3 Hyper Potions
+- 1 Revive
+- 1 Escape Rope
+- Max(10) Max Repels
+
+Go the the Bike Shop and get the Bike
+- Register the Bike 
+- Then use it from Bag
+- Head back to the Harbor
+
+Say yes to the Sailor
+
+:::::trainer[Sailor Braveton]
+  :::pokemon[Mantine]
+    - Rock Tomb + Flame Wheel
+  ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 opponentLevel=25 opponentStat=48 special=true stab=true type=Water}
+  ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 statModifier=1.1 opponentLevel=25 opponentStat=28 special=false stab=true type=flying}
+  :::
+:::::
+
+Say yes to Sailor again
+
+Get on Bike and head to Sabulo Tower
+
+:::::trainer[Expert Nicholi]
+  :::pokemon[Glameow]
+    - Heal(always uses fake out turn 1) + Flame Wheel
+  :::
+  :::pokemon[Diggersby]
+    - Rock Smash + Mach Punch
+  ::damage[Diggersby's Mud Shot]{source="Chimchar" offensive=false movePower=55 level=34 evolution=1 statModifier=1.1 opponentLevel=29 opponentStat=42 special=false stab=true type=ground}
+  :::
+  :::pokemon[Teddiursa]
+    - Mach Punch/Flame Wheel
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 37.5% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
+    - 43.8% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 15-19 / 0-2)"}
+    - 56.3% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-22 / 3-5)"}
+    - 68.8% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 6-8)"}
+    - 81.3% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 23-28 / 9-11)"}
+    - 87.5% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x /29-31 / 12-31)"}
+    - 100% to OHKO with Flame Wheel
+    :::
+  :::pokemon[Herdier]
+    - Flame Wheel x2/ Mach Punch x2
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 60.2% to 2HKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-19 / x)"}
+    - 90.2% to 2HKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 0-2)"}
+    - 92.2% to 2HKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-22 / 3-5)"}
+    - 98.4% to 2HKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 23-31 / 6-31)"}
+    - 100% to 2HKO with Flame Wheel
+    :::
+  :::
+:::::
+
+:::::trainer[Leader Erika]
+  :::pokemon[Victreebel]
+    - Surf
+  :::
+  :::pokemon[Tangela]
+    -  Bite
+  :::
+  :::pokemon[Vileplume]
+    - Surf*/Blizzard
+  ::damage[Vileplume's Giga Drain]{source="Chimchar" offensive=false movePower=60 level=49 evolution=2 opponentLevel=297 opponentStat=59 statModifier=1.1 special=true stab=true type=grass}
+  :::
+:::::
+
+Exiting through the already cut bush, then fly to Celadon and bike to Silph Co.
+
+Take stairs to 3F and head to the Teleporter on the left
+
+Run into pause manip the Scientist
+
+Always bag manip the Rocket Spinner
+
+On spinner bag manip
+- Use the Max Elixir
+- Use Carbos if you haven’t already
+-	Heal to tank 1 Wing Attacks + 1 Quick Attack from Pidgeot
+
+:::::trainer[Rival 5]
+  :::pokemon[Pidgeot]
+    - X Accuracy+Surf
+    - Can Skip X Accuracy if felling Risky
+    ::damage[Pidgeot's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=50 evolution=2 opponentLevel=34 opponentStat=63 statModifier=1.1 special=false stab=true type=flying}
+    ::damage[Pidgeot's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=50 evolution=2 opponentLevel=34 opponentStat=63 statModifier=1.1 special=false stab=true type=normal}
+  :::
+  :::pokemon[Venusaur]
+    - Blizzard
+  :::
+  :::pokemon[Gyarados]
+    - Bite+Blizzard
+    - Can X Special if you want some more damage for Torrent
+    - Can Surf* turn 2 if in Torrent
+  :::
+  :::pokemon[Growlithe]
+    - Water Pulse
+    - Bite with BlackGlasses Equipped
+  :::
+  :::pokemon[Alakazam]
+    - Water Pulse*/Surf
+  :::
+:::::
+
+:::::trainer[Rocket Grunt]
+  :::pokemon[Cubone]
+    - Bite
+  :::pokemon[Marowak]
+    - Water Pulse/Bite
+    :::if{source="Chimchar" condition="spatk=(x / x / 28)"}
+    - Bite is 93.8% to OHKO with BlackGlasses Equipped
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 29-31)"}
+    - Bite is 100% to OHKO with BlackGlasses Equipped
+    :::
+  :::
+  :::pokemon[Drowzee]
+    - Water Pulse
+  :::
+:::::
+
+:::::trainer[Giovanni 2]
+  :::pokemon[Nidorino]
+    - X Special if no torrent
+    - Surf
+  :::
+  :::pokemon[Nidoqueen]
+    - Surf
+  :::
+  :::pokemon[Kangaskhan]
+    - Surf
+    ::damage[Kangaskhan's Fake Out]{source="Chimchar" offensive=false movePower=40 level=52 evolution=2 opponentLevel=32 opponentStat=75 statModifier=1.1 special=false stab=true type=normal}
+    ::damage[Kangaskhan's Mega Punch]{source="Chimchar" offensive=false movePower=85 level=52 evolution=2 opponentLevel=32 opponentStat=75 statModifier=1.1 special=false stab=true type=normal}
+  :::
+  :::pokemon[Rhyhorn]
+    - Surf
+    - Bite at +1
+  :::
+:::::
+
+Dig out and Bike to the gym
+
+Tile Puzzle: Top Left, Bottom Left, Down
+
+:::::trainer[Leader Sabrina]
+  :::pokemon[Kadabra]
+    - Surf
+  :::
+  :::pokemon[Mr. Mime]
+    - Surf
+  :::
+  :::pokemon[Venomoth]
+    - Surf
+  :::
+  :::pokemon[Alakazam]
+    - Surf
+  :::
+:::::
+
+Dig out, then Fly to Viridian and bike to the gym
+
+Take the spinny tile on the right
+
+:::::trainer[Blackbelt Takashi]
+  :::pokemon[Machoke]
+    - Water Pulse
+  :::
+  :::pokemon[Machop]
+    - Water Pulse
+  :::
+  :::pokemon[Machoke]
+    - Water Pulse
+  :::
+:::::
+
+:::::trainer[Cooltrainer Warren]
+  - Water Pulse
+  - Bite Rhyhorn
+:::::
+
+:::::trainer[Leader Giovanni]
+  :::pokemon[Rhyhorn]
+    - Water Pulse
+  :::
+  :::pokemon[Dugtrio]
+    - Water Pulse
+  :::
+  :::pokemon[Nidoqueen]
+    - Water Pulse
+  :::
+  :::pokemon[Nidoking]
+    - Water Pulse
+  :::
+  :::pokemon[Rhyhorn]
+    - Water Pulse
+  :::
+:::::
+
+After exiting, bike to Route 22
+
+Before the grass:
+- Candy to Level 60
+- Heal to survive 2 Wing Attacks and a Quick Attack
+- Teach Strength over Water Pulse if no Sandshrew
+
+:::::trainer[Rival 6]
+  :::pokemon[Pidgeot]
+    - X Special+(X Accuracy)+Surf
+    - Consider X Accuracy skip if felling Risky
+    ::damage[Pidgeot's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=60 evolution=2 opponentLevel=44 opponentStat=83 statModifier=1.1 special=false stab=true type=flying}
+    ::damage[Pidgeot's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=60 evolution=2 opponentLevel=44 opponentStat=83 statModifier=1.1 special=false stab=true type=normal}
+  :::
+  :::pokemon[Venusaur]
+    - Blizzard	 
+  :::
+  :::pokemon[Rhyhorn]
+    - Bite
+  :::
+  :::pokemon[Gyarados]
+    - Blizzard
+    :::if{source="Chimchar" condition="spatk=(x / x / 28-29)"}
+    - 81.3% to OHKO
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 30)"}
+    - 87.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 31)"}
+    - 93.8% to OHKO
+    :::
+  :::
+  :::pokemon[Growlithe]
+    - Bite
+  :::
+  :::pokemon[Alakazam]
+    - Surf 
+  :::
+:::::
+
+Every trainer here is an optional trainer, so avoid them all
+
+*Box heal and deposit slaves (from “Move” menu)*
+
+**Buy max Full Restores (vv)**
+
+:::::trainer[Elite Four Lorelei]
+  :::pokemon[Dewgong]
+    - X SpecialX2+BiteX2
+    :::if{source="Chimchar" condition="spatk=(x / x / 28-29)"}
+    - 95.3% to 2HKO wihtout BlackGlasses
+    :::
+    :::if{source="Chimchar" condition="speed=(x / x / 30-31)"}
+    - 98.8% to 2HKO wihtout BlackGlasses
+    :::
+  :::
+  :::pokemon[Cloyster]
+    - Bite
+  :::
+  :::pokemon[Slowbro]
+    - Bite
+  :::
+  :::pokemon[Jynx]
+    - Surf
+  :::
+  :::pokemon[Lapras]
+    - Bite x3
+    ::damage[Lapras' Body Slam]{source="Chimchar" offensive=false movePower=85 level=62 evolution=2 opponentLevel=50 opponentStat=105 statModifier=1.1 special=false stab=false type=normal}
+  :::
+:::::
+
+:::::trainer[Elite Four Bruno]
+  :::pokemon[Onix]
+    - Guard Spec+X SpecialX2+Bite
+    ::damage[Onix's Earthquake]{source="Chimchar" offensive=false movePower=100 level=62 evolution=2 opponentLevel=47 opponentStat=61 statModifier=1.1 special=false stab=true type=ground} 
+    ::damage[Onix's Rock Tomb]{source="Chimchar" offensive=false movePower=50 level=62 evolution=2 opponentLevel=47 opponentStat=61 statModifier=1.1 special=false stab=true type=rock}
+  :::
+  :::pokemon[Hitmonchan]
+    -  Surf
+  :::
+  :::pokemon[Hitmonlee]
+    -  Surf
+  :::
+  :::pokemon[Machamp]
+    -  Surf
+  :::
+  :::pokemon[Onix]
+    -  Bite
+  :::
+:::::
+
+Heal out of Agatha kill range, but keep Torrent if possible
+
+:::::trainer[Elite Four Agatha]
+  :::pokemon[Gengar]
+    - X Special+Surf
+    - Skip X Speical if torrent
+    ::damage[Gengar's Shadow Punch]{source="Chimchar" offensive=false movePower=60 level=64 evolution=2 opponentLevel=50 opponentStat=93 statModifier=1.1 special=false stab=true type=ghost}
+  :::
+  :::pokemon[Golbat]
+    - Surf
+  :::
+  :::pokemon[Arbok]
+    - Surf
+  :::
+  :::pokemon[Gengar]
+    - Surf
+  :::
+  :::pokemon[Haunter]
+    - Surf
+  :::
+:::::
+
+Heal to Full before Lance
+
+:::::trainer[Elite Four Lance]
+  :::pokemon[Gyarados]
+    - AccuracyX1-2+BlizzardX2
+    - Use X Accuracy depening on how slow/fast you want to go
+    ::damage[Gyarados' Hyper Beam ]{source="Chimchar" offensive=false movePower=150 level=65 evolution=2 opponentLevel=52 opponentStat=150 statModifier=1.1 special=false stab=false type=normal}
+  :::
+  :::pokemon[Dragonair]
+    - Blizzard
+  :::
+  :::pokemon[Dragonair]
+    - Blizzard
+  :::
+  :::pokemon[Dragonite]
+    - Blizzard
+  :::
+  :::pokemon[Aerodactyl]
+    - Surf
+    ::damage[Aerodactyl's Hyper Beam]{source="Chimchar" offensive=false movePower=150 level=6 evolution=2 opponentLevel=54 opponentStat=120 statModifier=1.1 special=false stab=false type=normal}
+  :::
+:::::
+
+Heal to Full + Elixir before Champion
+
+:::::trainer[Champion]
+  :::pokemon[Pidgeot]
+    - Guard Spec+X Special+X Accuracy+Surf
+    ::damage[Pidgeot's Aerial Ace]{source="Chimchar" offensive=false movePower=60 level=67 evolution=2 opponentLevel=55 opponentStat=110 statModifier=1.1 special=false stab=true type=flying}
+  :::
+  :::pokemon[Venusaur]
+    - Blizzard
+  :::
+  :::pokemon[Alakazam]
+    - Surf
+  :::
+  :::pokemon[Rhydon]
+    - Surf
+  :::
+  :::pokemon[Gyarados]
+    - Bite + Blizzard
+    - Without Blackglasses, 95.31% range with 28-29 Sp. Atk IV; 98.05% range with 30 Sp. Atk IV; 99.22% with 31 Sp. Atk IV
+    ::damage[Gyarados's Thrash]{source="Chimchar" offensive=false movePower=90 level=68 evolution=2 opponentLevel=55 opponentStat=143 statModifier=1.1 special=false stab=false type=normal}
+  :::
+  :::pokemon[Arcanine]
+    - Surf
+    ::damage[Arcanine's Extremespeed]{source="Chimchar" offensive=false movePower=80 level=56 evolution=2 opponentLevel=61 opponentStat=158 statModifier=1.1 special=false stab=false type=normal}
+:::::
+
+Ending split is on fadeout after Hall of Fame
+
+**Congrats if you made it this far into the run**
