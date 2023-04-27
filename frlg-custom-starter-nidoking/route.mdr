@@ -37,7 +37,20 @@
     40 ->	15, 19, 38, 19, 3, 54 # 
     41 ->	15, 22, 40, 22, 3, 57 # Exeggcute(1 Defense), Victreebel(3 Attack), Tangela(1 Defense), Vileplume(3 SpAtk), Pidgeot(3 Speed)
     42 ->	15, 24, 41, 28, 3, 57 # Exeggcute(1 Defense), Alakazam(3 SpAtk), Gyarados(2 Attack), Charizard(3 SpAtk)
-    42 ->	15, 24, 41, 28, 3, 57 # 
+    43 ->	15, 24, 41, 28, 3, 57 # 
+    44 ->	15, 24, 41, 28, 3, 57 # 
+    45 ->	15, 24, 41, 28, 3, 57 # 
+    46 ->	20, 26, 45, 28, 4, 57 # Cubone(1 Defense), Marowak(2 Defense), Drowzee(1 SpDef), Nidorino(2 Attack), Kangaskhan(2 HP), Rhyhorn(1 Defense), Nidoqueen(3 HP)
+    47 ->	20, 26, 45, 34, 7, 58 # Kadabra(2 SpAtk), Mr.Mime(2 SpDef), Alakazam(3 SpAtk), Venomoth(1 SpAtk + 1 Speed), Drowzee(1 SpDef)
+    48 ->	21, 27, 49, 36, 9, 58 # Drowzee(1 SpDef), Kadabra(2 SpAtk), Drowzee(1 SpDef), Koffing(1 Defense), Muk(1 HP + 1 Attack), Koffing(1 Defense), Weezing(2 Defense)
+    49 ->	21, 32, 49, 36, 9, 61 # Growlithe(1 Attack), Ponyta(1 Speed), Rapidash(2 Speed), Arcanine(2 Attack), Machoke(2 Attack)
+    50 ->	26, 35, 54, 36, 9, 61 # Machop(1 Attack), Machoke(2 Attack), Marowak(2 Defense), Marowak(2 Defense), Rhyhorn(1 Defense), Nidorina(2 HP), Nidoqueen(3 HP)
+    51 ->	29, 38, 56, 36, 9, 63 # Rhyhorn(1 Defense), Dugtrio(2 Speed), Nidoqueen(3 HP), Nidoking(3 Attack), Rhyhorn(1 Defense)
+    52 ->	29, 38, 56, 36, 9, 63 # 
+    53 ->	29, 40, 57, 42, 9, 66 # Pidgeot(3 Speed), Alakazam(3 SpAtk), Gyarados(2 Attack), Charizard(3 SpAtk), Rhyhorn(1 Defense)
+    54 ->	29, 40, 62, 44, 11, 66 # Exeggcute(1 Defense), Dewgong(2 SpDef), Cloyster(2 Defense), Slowbro(2 Defense), Jynx(2 SpAtk)
+    55 ->	31, 45, 64, 44, 11, 66 # Lapras(2 HP), Onix(1 Defense), Onix(1 Defense) Hitmonlee(2 Attack), Machamp(3 Attack)
+    56 ->	31, 45, 64, 44, 11, 66 # Hitmonchan(2 SpDef), Gengar(3 SpAtk), 
 :::
 
 ## Pokémon FireRed/LeafGreen Custom Starter Nidoking route
@@ -84,6 +97,7 @@ Grab the parcel at the mart then head back to Oak’s lab
 
 Catch Rattata and Pidgey(Peck to weaken)
   - Don’t try to force and encounter since there’s backups later
+  - If you skip rat here you can get Sandshrew and also skip getting Lapras
 
 On Route 2, cut through the grass before the Viridian Forest entrance (2nd tile to the right); it is 1% to get an encounter
 
@@ -634,6 +648,8 @@ Head straight to Game Corner
 
 Talk to the poster and head into the Rocket Hideout
 
+Grab the Hidden Nugget
+
 :::::trainer[Rocket Grunt]
   :::pokemon[Koffing]
     - Thrash
@@ -703,13 +719,14 @@ Bike straight to the mart and take the elevator to 5F (vv)
 
 **Shopping: (bottom vendor)**
 Sell:-
-- Nugget
+- Nugget x2
 
 Buy:-
-- 25 X Attacks
+- 31 X Attacks
 - 4 X Speed(vv)
-- 5 X Accuracy (vv)
-- 2 Guard Specs. (v)
+- 3 X Special(v)
+- 5 X Accuracy (v)
+- 5 Guard Specs. (v)
 
 Take Elevarot to 1F and Bike to get Fly
 
@@ -830,6 +847,7 @@ Head through the left side of the gym
 :::::
 
 Rare Candy x3 to level 40
+- Teach Reutrn over Mega Punch
 
 :::::trainer[Beauty Lori]
   :::pokemon[Exeggcute]
@@ -838,7 +856,7 @@ Rare Candy x3 to level 40
 
 :::::trainer[Leader Erika]
   :::pokemon[Victreebel]
-    - X Attack + Mega Punch
+    - X Attack + Reutrn
     - Use Paralyze Heal before attacking if got Paralyzed
   ::damage[Victreebel's Giga Drain]{source="Nidoking" offensive=false movePower=60 level=40 opponentLevel=29 opponentStat=63 special=true stab=true type=grass}
   :::
@@ -886,6 +904,7 @@ Always bag manip the Rocket Spinner
 
 On spinner bag manip
 -	Heal to full
+- Teach Surf over Water Pulse
 
 :::::trainer[Rival 5]
   :::pokemon[Pidgeot]
@@ -895,7 +914,7 @@ On spinner bag manip
     ::damage[Pidgeot's Quick Attack]{source="Nidoking" offensive=false movePower=40 level=40 opponentLevel=37 opponentStat=68 special=false stab=true type=normal}
   :::
   :::pokemon[Exeggcute]
-    - Mega Punch
+    - Reutrn
   :::
   :::pokemon[Alakazam]
     - Rock Slide
@@ -908,70 +927,79 @@ On spinner bag manip
   :::
 :::::
 
+Get Lapras
+
+Candy x3 to Level 45
+
 :::::trainer[Rocket Grunt]
   :::pokemon[Cubone]
-    - Bite
-  :::pokemon[Marowak]
-    - Water Pulse/Bite
-    :::if{source="Nidoking" condition="spatk=(x / x / 28)"}
-    - Bite is 93.8% to OHKO with BlackGlasses Equipped
-    :::
-    :::if{source="Nidoking" condition="spatk=(x / x / 29-31)"}
-    - Bite is 100% to OHKO with BlackGlasses Equipped
-    :::
+    - Surf
   :::
   :::pokemon[Drowzee]
-    - Water Pulse
+    - Rock Slide
+  :::
+  :::pokemon[Marowak]
+    - Surf
   :::
 :::::
 
 :::::trainer[Giovanni 2]
   :::pokemon[Nidorino]
-    - X Special if no torrent
-    - Surf
-  :::
-  :::pokemon[Nidoqueen]
-    - Surf
+    - X Attack + Reutrn
   :::
   :::pokemon[Kangaskhan]
-    - Surf
-    ::damage[Kangaskhan's Fake Out]{source="Nidoking" offensive=false movePower=40 level=52  opponentLevel=32 opponentStat=75 statModifier=1.1 special=false stab=true type=normal}
-    ::damage[Kangaskhan's Mega Punch]{source="Nidoking" offensive=false movePower=85 level=52  opponentLevel=32 opponentStat=75 statModifier=1.1 special=false stab=true type=normal}
+    - Return x2
+    ::damage[Kangaskhan's Fake Out]{source="Nidoking" offensive=false movePower=40 level=45 opponentLevel=35 opponentStat=82 special=false stab=true type=normal}
+    ::damage[Kangaskhan's Mega Punch]{source="Nidoking" offensive=false movePower=85 level=45 opponentLevel=35 opponentStat=82 special=false stab=true type=normal}
   :::
   :::pokemon[Rhyhorn]
     - Surf
-    - Bite at +1
+  :::
+  :::pokemon[Nidoqueen]
+    - Thrash x2
+    ::damage[Nidoqueen's Body Slam]{source="Nidoking" offensive=false movePower=85 level=45 opponentLevel=41 opponentStat=84 special=false stab=false type=normal}
   :::
 :::::
 
-Dig out and Bike to the gym
+Escape Rope out and Bike to the gym
+- Make sure to heal out of Mr.Mime Psybeam range
 
 Tile Puzzle: Top Left, Bottom Left, Down
 
 :::::trainer[Leader Sabrina]
   :::pokemon[Kadabra]
-    - Surf
+    - Return
   :::
   :::pokemon[Mr. Mime]
-    - Surf
-  :::
-  :::pokemon[Venomoth]
-    - Surf
+    - X Attack + Return
+    ::damage[Mr.Mime's Psybeam]{source="Nidoking" offensive=false movePower=65 level=46 opponentLevel=37 opponentStat=79 special=true stab=true type=Psychic}
   :::
   :::pokemon[Alakazam]
-    - Surf
+    - Return
+  :::
+  :::pokemon[Venomoth]
+    - Return
   :::
 :::::
 
-Fly to Fuchsia and head to the gym
+Escape Rope out
+- Fly to Fuchsia and head to the gym
 
 The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
 
-**During the bag manip on the 1st spinner**
- - **Teach Surf to Blastoise over Water Gun (Slot 1)**
-
 :::::trainer[Juggler Kirk]
-  - Surfx4
+  :::pokemon[Drowzee]
+    - Return
+  :::
+  :::pokemon[Drowzee]
+    - Return
+  :::
+  :::pokemon[Kadabra]
+    - Thrash
+  :::
+  :::pokemon[Drowzee]
+    - Thrash
+  :::
 :::::
 
 :::::trainer[Leader Koga]
@@ -979,139 +1007,153 @@ The 1st and 3rd trainer in this gym are spinners, fight the 2nd guy
     - Surf
   :::
   :::pokemon[Muk]
-    - Bite+Surf*/SurfX2
-    ::damage[Muk's Sludge]{source="Nidoking" offensive=false movePower=65 level=46  opponentLevel=36 opponentStat=72 combatStages=0 special=false stab=true type=poison}
+    - Return x2
+    - Return + Rock Slide + Surf if Muk used Acid Armor turn 1
+    ::damage[Muk's Sludge]{source="Nidoking" offensive=false movePower=65 level=47 opponentLevel=37 opponentStat=53 special=false stab=true type=poison}
   :::
   :::pokemon[Koffing]
     - Surf
   :::
   :::pokemon[Weezing]
-    - Surf*/Bite+Surf
-    ::damage[Weezing's Sludge]{source="Nidoking" offensive=false movePower=65 level=47  opponentLevel=43 opponentStat=77 combatStages=0 special=false stab=true type=poison}
+    - Surf x2
+    - 92.6% to 2HKO
+    ::damage[Weezing's Tackle]{source="Nidoking" offensive=false movePower=35 level=47 opponentLevel=43 opponentStat=82 special=false stab=false type=normal}
   :::
 :::::
 
-**Grab Strength from the warden and once outside**
+**Grab Strength from the warden*
+- Teach Strength to Lapras/Sandshrew and get the Rare Candy
+
+Once outside
  - Super Repel
  - Fly to Pallet and Surf south to Cinnabar Island
 
 Go to the mansion (approach from the left side)
 
-**Grab this Carbos if 21-22 Speed IV**
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039546661275435109/Mansion_Carbos.png)
-
 Grab this hidden Elixir
 
 ![](https://cdn.discordapp.com/attachments/917309676717244436/1039547193012527154/Mansion_Elixir.png)
 
-Grab this TM14 (Blizzard) and then grab secret key on table
-
-![](https://cdn.discordapp.com/attachments/917309676717244436/1039547192710545468/Mansion_Blizzard.png)
-
-**Before exiting Cinnabar Mansion:**
-- **Teach Strength to Sandshrew if you caught one**
-- **Teach Blizzard over Bubble (Slot 4)**
-- **Carbos now if grabbed it)**
-- **Dig out and bike to the gym**
+Grab secret key on table
+- Escape Rope out and bike to the gym
 
 *Puzzle Answers: A,B,B,B,A,B*
 
 :::::trainer[Leader Blaine]
   :::pokemon[Growlithe]
-    - Water Pulse
+    - X Special + Surf
+    ::damage[Growlithe's Takedown]{source="Nidoking" offensive=false movePower=90 level=48 opponentLevel=42 statModifier=1.1 opponentStat=63 special=false stab=false type=normal}
+    ::damage[Growlithe's Fire Blast]{source="Nidoking" offensive=false movePower=120 level=48 opponentLevel=42 statModifier=1.1 opponentStat=63 special=true stab=false type=Fire}
   :::
   :::pokemon[Ponyta]
-    -  Water Pulse
+    -  Surf
   :::
-  :::pokemon[Rapidash(22-23 Speed Ties)]
-    - Water Pulse
+  :::pokemon[Rapidash]
+    - Surf
   :::
   :::pokemon[Arcanine]
-    - Surf/Water Pulse*
+    - Surf
+    - 75% to OHKO
+    ::damage[Arcanine's Takedown]{source="Nidoking" offensive=false movePower=90 level=48 opponentLevel=47 statModifier=1.1 opponentStat=108 special=false stab=false type=normal}
+    ::damage[Arcanine's Fire Blast]{source="Nidoking" offensive=false movePower=120 level=48 opponentLevel=47 statModifier=1.1 opponentStat=108 special=true stab=false type=Fire}
   :::
 :::::
 
-**SAY NO TO BILL YOU IDIOT, then fly to Celadon and bike to the gym**
-
-Dig out, then Fly to Viridian and bike to the gym
+**SAY NO TO BILL YOU IDIOT**
+- Use Elixir
+- Fly to Viridian and Bie to the gym
 
 Take the spinny tile on the right
 
 :::::trainer[Blackbelt Takashi]
   :::pokemon[Machoke]
-    - Water Pulse
+    - X Attack + Return
+    - 75% to OHKO
+    - It's highest damaging move is Seismic Toss
   :::
   :::pokemon[Machop]
-    - Water Pulse
+    - Return
   :::
   :::pokemon[Machoke]
-    - Water Pulse
+    - Return
+    - 81.3% to OHKO
+    - It's highest damaging move is Seismic Toss
   :::
 :::::
 
 :::::trainer[Cooltrainer Warren]
-  - Water Pulse
-  - Bite Rhyhorn
+  :::pokemon[Marowak]
+    - Surf
+  :::
+  :::pokemon[Marowak]
+    - Surf
+  :::
+  :::pokemon[Rhyhorn]
+    - Surf
+  :::
+  :::pokemon[Nidorina]
+    - X Special + Surf
+  :::
+  :::pokemon[Nidoqueen]
+    - Surf
+  :::
 :::::
+
+Heal out of Dugtrio's Earthquake range
 
 :::::trainer[Leader Giovanni]
   :::pokemon[Rhyhorn]
-    - Water Pulse
+    - Surf
   :::
   :::pokemon[Dugtrio]
-    - Water Pulse
+    - Return
   :::
   :::pokemon[Nidoqueen]
-    - Water Pulse
+    - Surf
+    ::damage[Nidoqueen's Earthquake]{source="Nidoking" offensive=false movePower=100 level=50 opponentLevel=44 opponentStat=77 statModifier=1.1 special=false stab=true type=ground}
   :::
   :::pokemon[Nidoking]
-    - Water Pulse
+    - Surf
   :::
   :::pokemon[Rhyhorn]
-    - Water Pulse
+    - Surf
   :::
 :::::
 
 After exiting, bike to Route 22
 
-Before the grass:
-- Candy to Level 60
-- Heal to survive 2 Wing Attacks and a Quick Attack
-- Teach Strength over Water Pulse if no Sandshrew
+You the grass
+
+Menu after the Grass
+- Teach Earthquake over Thrash
+- Use Full Restore
+- Use Rare Candy
 
 :::::trainer[Rival 6]
   :::pokemon[Pidgeot]
-    - X Special+(X Accuracy)+Surf
-    - Consider X Accuracy skip if felling Risky
-    ::damage[Pidgeot's Wing Attack]{source="Nidoking" offensive=false movePower=60 level=60  opponentLevel=44 opponentStat=83 statModifier=1.1 special=false stab=true type=flying}
-    ::damage[Pidgeot's Quick Attack]{source="Nidoking" offensive=false movePower=40 level=60  opponentLevel=44 opponentStat=83 statModifier=1.1 special=false stab=true type=normal}
-  :::
-  :::pokemon[Venusaur]
-    - Blizzard	 
-  :::
-  :::pokemon[Rhyhorn]
-    - Bite
-  :::
-  :::pokemon[Gyarados]
-    - Blizzard
-    :::if{source="Nidoking" condition="spatk=(x / x / 28-29)"}
-    - 81.3% to OHKO
-    :::
-    :::if{source="Nidoking" condition="spatk=(x / x / 30)"}
-    - 87.5% to OHKO
-    :::
-    :::if{source="Nidoking" condition="spatk=(x / x / 31)"}
-    - 93.8% to OHKO
-    :::
-  :::
-  :::pokemon[Growlithe]
-    - Bite
+    - Guard Spec + X Attack x3 + Return
+    ::damage[Pidgeot's Wing Attack]{source="Nidoking" offensive=false movePower=60 level=51 opponentLevel=47 opponentStat=88 statModifier=1.1 special=false stab=true type=flying}
+    ::damage[Pidgeot's Quick Attack]{source="Nidoking" offensive=false movePower=40 level=51 opponentLevel=47 opponentStat=88 statModifier=1.1 special=false stab=true type=normal}
   :::
   :::pokemon[Alakazam]
-    - Surf 
+    - Return
+  :::
+  :::pokemon[Gyarados]
+    - Rock Slide
+  :::
+  :::pokemon[Charizard]
+    - Rock Slide
+  :::
+  :::pokemon[Rhyhorn]
+    - Surf
+  :::
+  :::pokemon[Exeggcute]
+    - Return	 
   :::
 :::::
+
+Yolo next grass
+- Use Super Repel before Surfing
 
 Every trainer here is an optional trainer, so avoid them all
 
@@ -1121,54 +1163,51 @@ Every trainer here is an optional trainer, so avoid them all
 
 :::::trainer[Elite Four Lorelei]
   :::pokemon[Dewgong]
-    - X SpecialX2+BiteX2
-    :::if{source="Nidoking" condition="spatk=(x / x / 28-29)"}
-    - 95.3% to 2HKO wihtout BlackGlasses
-    :::
-    :::if{source="Nidoking" condition="speed=(x / x / 30-31)"}
-    - 98.8% to 2HKO wihtout BlackGlasses
-    :::
+    - Earthquake x2
+    ::damage[Dewgong's Ice Beam]{source="Nidoking" offensive=false movePower=95 level=52 opponentLevel=53 opponentStat=93 statModifier=1.1 special=true stab=true type=Ice}
   :::
   :::pokemon[Cloyster]
-    - Bite
+    - (Full Restore)  X Attack x4 + Earthquake
+    ::damage[Cloyster's Dive]{source="Nidoking" offensive=false movePower=6 level=52 opponentLevel=53 opponentStat=96 statModifier=1.1 special=true stab=true type=water}
   :::
   :::pokemon[Slowbro]
-    - Bite
+    - Earthquake
   :::
   :::pokemon[Jynx]
-    - Surf
+    - Earthquake
   :::
   :::pokemon[Lapras]
-    - Bite x3
-    ::damage[Lapras' Body Slam]{source="Nidoking" offensive=false movePower=85 level=62  opponentLevel=50 opponentStat=105 statModifier=1.1 special=false stab=false type=normal}
+    - Earthquake
   :::
 :::::
+
+Use Full Restore before Bruno
 
 :::::trainer[Elite Four Bruno]
   :::pokemon[Onix]
-    - Guard Spec+X SpecialX2+Bite
-    ::damage[Onix's Earthquake]{source="Nidoking" offensive=false movePower=100 level=62  opponentLevel=47 opponentStat=61 statModifier=1.1 special=false stab=true type=ground} 
-    ::damage[Onix's Rock Tomb]{source="Nidoking" offensive=false movePower=50 level=62  opponentLevel=47 opponentStat=61 statModifier=1.1 special=false stab=true type=rock}
-  :::
-  :::pokemon[Hitmonchan]
-    -  Surf
-  :::
-  :::pokemon[Hitmonlee]
-    -  Surf
-  :::
-  :::pokemon[Machamp]
-    -  Surf
+    - Surf
   :::
   :::pokemon[Onix]
-    -  Bite
+    - Surf
+  :::
+  :::pokemon[Hitmonlee]
+    - X Attack + Earthquake
+    ::damage[Hitmonlee's Mega Kick]{source="Nidoking" offensive=false movePower=120 level=54 opponentLevel=53 opponentStat=148 statModifier=1.1 special=false stab=false type=normal}
+  :::
+  :::pokemon[Machamp]
+    - Earthquake x2
+    ::damage[Machamp's Cross Chop]{source="Nidoking" offensive=false movePower=100 level=54 opponentLevel=56 opponentStat=150 statModifier=1.1 special=false stab=true type=fighting}
+  :::
+  :::pokemon[Hitmonchan]
+    - Earthquake
+    ::damage[Hitmonchan's Sky Uppercut]{source="Nidoking" offensive=false movePower=85 level=54 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting}
+    ::damage[Hitmonchan's Mach Punch]{source="Nidoking" offensive=false movePower=40 level=54 opponentLevel=53 opponentStat=132 statModifier=1.1 special=false stab=true type=fighting}
   :::
 :::::
 
-Heal out of Agatha kill range, but keep Torrent if possible
-
 :::::trainer[Elite Four Agatha]
   :::pokemon[Gengar]
-    - X Special+Surf
+    - X Attack+Rock Slide
     - Skip X Speical if torrent
     ::damage[Gengar's Shadow Punch]{source="Nidoking" offensive=false movePower=60 level=64  opponentLevel=50 opponentStat=93 statModifier=1.1 special=false stab=true type=ghost}
   :::
