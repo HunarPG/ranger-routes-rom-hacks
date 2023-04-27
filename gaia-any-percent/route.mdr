@@ -30,7 +30,10 @@
     33 ->	19, 15, 18, 12, 6, 24 # Noctowl(2HP), Numel(1 SpAttack), Numel(1 SpAttack), Pansear(1 Speed), Simisear(2 Speed)
     34 ->	19, 18, 18, 15, 6, 25 # Litleo(1 SpAttack), Monferno(1 SpAttack, 1 Speed), Pignite(2 Attack), Camerupt(1 Attack + 1 SpAttack)
     35 ->	21, 18, 18, 19, 6, 26 # Magmar(2 SpAttack), Heatmor(2 SpAttack), Glameow(1 Speed), Diggersby(2 HP)
-    36 ->	21, 18, 18, 19, 6, 26 # 
+    36 ->	22, 21, 18, 19, 6, 29 # Teddiursa(1 Attack), Herdier(2 Attack), Skiddo(1 HP), Jumpluff(3 Speed)
+    37 ->	22, 22, 18, 21, 8, 33 # Wormadam(2 SpDef), Grovyle(2 Speed), Litleo(1 SpAttack), Numel(1 SpAttack), Fletchinder(2 Speed), Larvesta(1 Attack)
+    38 ->	23, 24, 18, 21, 11, 37 # Barboach(1 HP), Basculin(2 Speed), Basculin(2 Speed), Mantine(2 SpDef), Goomy(1 SpDef), Gabite(2 Attack)
+    39 ->	23, 24, 18, 21, 11, 37 # Dragonair(2 Attack), Tyrunt(1 Attack), 
 :::
 
 ## Pokémon Gaia Any% Route
@@ -1137,7 +1140,7 @@ Say yes to the Sailor
   :::pokemon[Mantine]
     - Rock Tomb + Flame Wheel
   ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 opponentLevel=25 opponentStat=48 special=true stab=true type=Water}
-  ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 statModifier=1.1 opponentLevel=25 opponentStat=28 special=false stab=true type=flying}
+  ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 opponentLevel=25 opponentStat=28 special=false stab=true type=flying}
   :::
 :::::
 
@@ -1151,7 +1154,7 @@ Get on Bike and head to Sabulo Tower
   :::
   :::pokemon[Diggersby]
     - Rock Smash + Mach Punch
-  ::damage[Diggersby's Mud Shot]{source="Chimchar" offensive=false movePower=55 level=34 evolution=1 statModifier=1.1 opponentLevel=29 opponentStat=42 special=false stab=true type=ground}
+  ::damage[Diggersby's Mud Shot]{source="Chimchar" offensive=false movePower=55 level=34 evolution=1 opponentLevel=29 opponentStat=42 special=false stab=true type=ground}
   :::
   :::pokemon[Teddiursa]
     - Mach Punch/Flame Wheel
@@ -1196,99 +1199,81 @@ Get on Bike and head to Sabulo Tower
   :::
 :::::
 
-:::::trainer[Leader Erika]
-  :::pokemon[Victreebel]
-    - Surf
+:::::trainer[Expert Maya]
+  :::pokemon[Skiddo]
+    - Flame Wheel
   :::
-  :::pokemon[Tangela]
-    -  Bite
+  :::pokemon[Jumpluff]
+    - Flame Wheel
+    - Learn Close Combat over Mach Punch
   :::
-  :::pokemon[Vileplume]
-    - Surf*/Blizzard
-  ::damage[Vileplume's Giga Drain]{source="Chimchar" offensive=false movePower=60 level=49 evolution=2 opponentLevel=297 opponentStat=59 statModifier=1.1 special=true stab=true type=grass}
+  :::pokemon[Wormadam]
+    - Flame Wheel
   :::
-:::::
-
-Exiting through the already cut bush, then fly to Celadon and bike to Silph Co.
-
-Take stairs to 3F and head to the Teleporter on the left
-
-Run into pause manip the Scientist
-
-Always bag manip the Rocket Spinner
-
-On spinner bag manip
-- Use the Max Elixir
-- Use Carbos if you haven’t already
--	Heal to tank 1 Wing Attacks + 1 Quick Attack from Pidgeot
-
-:::::trainer[Rival 5]
-  :::pokemon[Pidgeot]
-    - X Accuracy+Surf
-    - Can Skip X Accuracy if felling Risky
-    ::damage[Pidgeot's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=50 evolution=2 opponentLevel=34 opponentStat=63 statModifier=1.1 special=false stab=true type=flying}
-    ::damage[Pidgeot's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=50 evolution=2 opponentLevel=34 opponentStat=63 statModifier=1.1 special=false stab=true type=normal}
-  :::
-  :::pokemon[Venusaur]
-    - Blizzard
-  :::
-  :::pokemon[Gyarados]
-    - Bite+Blizzard
-    - Can X Special if you want some more damage for Torrent
-    - Can Surf* turn 2 if in Torrent
-  :::
-  :::pokemon[Growlithe]
-    - Water Pulse
-    - Bite with BlackGlasses Equipped
-  :::
-  :::pokemon[Alakazam]
-    - Water Pulse*/Surf
+  :::pokemon[Grovyle]
+    - Flame Wheel
+  ::damage[Grovyle's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=36 evolution=1 opponentLevel=29 opponentStat=44 special=false stab=false type=normal}
   :::
 :::::
 
-:::::trainer[Rocket Grunt]
-  :::pokemon[Cubone]
-    - Bite
-  :::pokemon[Marowak]
-    - Water Pulse/Bite
-    :::if{source="Chimchar" condition="spatk=(x / x / 28)"}
-    - Bite is 93.8% to OHKO with BlackGlasses Equipped
+Do not acccidently cance the evolution
+
+:::::trainer[Ace Trainer Atsushi]
+  :::pokemon[Litleo]
+    - Rock Smash
+  :::
+  :::pokemon[Numel]
+    - Rock Smash
+  :::
+  :::pokemon[Fletchinder]
+    - Rock Tomb
+  :::
+  :::pokemon[Larvesta]
+    - Rock Tomb
+  :::
+:::::
+
+Heal before the next fight
+
+:::::trainer[Ace Trainer Mikel]
+  :::pokemon[Barboach]
+    - Rock Smash
+  :::
+  :::pokemon[Basculin]
+    - Close Combat
+  :::
+  :::pokemon[Basculin]
+    - Close Combat
+  ::damage[Grovyle's Aqua Jet]{source="Chimchar" offensive=false movePower=40 level=37 evolution=2 combatStages=-1 opponentLevel=27 opponentStat=56 special=false stab=true type=Water}
+  :::
+  :::pokemon[Mantine]
+    - Rock Tomb
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 87.5% to OHKO
     :::
-    :::if{source="Chimchar" condition="spatk=(x / x / 29-31)"}
-    - Bite is 100% to OHKO with BlackGlasses Equipped
-    :::
-  :::
-  :::pokemon[Drowzee]
-    - Water Pulse
+  ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=37 evolution=2 opponentLevel=27 opponentStat=50 special=true stab=true type=Water}
+  ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=37 evolution=2 opponentLevel=27 opponentStat=28 special=false stab=true type=flying}
   :::
 :::::
 
-:::::trainer[Giovanni 2]
-  :::pokemon[Nidorino]
-    - X Special if no torrent
-    - Surf
+:::::trainer[Expert Agam]
+  :::pokemon[Goomy]
+    - Rock Smash
   :::
-  :::pokemon[Nidoqueen]
-    - Surf
+  :::pokemon[Gabite]
+    - Close Combat
   :::
-  :::pokemon[Kangaskhan]
-    - Surf
-    ::damage[Kangaskhan's Fake Out]{source="Chimchar" offensive=false movePower=40 level=52 evolution=2 opponentLevel=32 opponentStat=75 statModifier=1.1 special=false stab=true type=normal}
-    ::damage[Kangaskhan's Mega Punch]{source="Chimchar" offensive=false movePower=85 level=52 evolution=2 opponentLevel=32 opponentStat=75 statModifier=1.1 special=false stab=true type=normal}
+  :::pokemon[Dragonair]
+    - Close Combat
   :::
-  :::pokemon[Rhyhorn]
-    - Surf
-    - Bite at +1
+  :::pokemon[Tyrunt]
+    - Rock Smash
   :::
 :::::
 
-Dig out and Bike to the gym
-
-Tile Puzzle: Top Left, Bottom Left, Down
-
-:::::trainer[Leader Sabrina]
-  :::pokemon[Kadabra]
-    - Surf
+:::::trainer[Successor Belle]
+  :::pokemon[Heracross]
+    - Flame Wheel
   :::
   :::pokemon[Mr. Mime]
     - Surf
