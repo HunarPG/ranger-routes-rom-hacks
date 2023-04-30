@@ -33,7 +33,12 @@
     36 ->	22, 21, 18, 19, 6, 29 # Teddiursa(1 Attack), Herdier(2 Attack), Skiddo(1 HP), Jumpluff(3 Speed)
     37 ->	22, 22, 18, 21, 8, 33 # Wormadam(2 SpDef), Grovyle(2 Speed), Litleo(1 SpAttack), Numel(1 SpAttack), Fletchinder(2 Speed), Larvesta(1 Attack)
     38 ->	23, 24, 18, 21, 11, 37 # Barboach(1 HP), Basculin(2 Speed), Basculin(2 Speed), Mantine(2 SpDef), Goomy(1 SpDef), Gabite(2 Attack)
-    39 ->	23, 24, 18, 21, 11, 37 # Dragonair(2 Attack), Tyrunt(1 Attack), 
+    39 ->	23, 31, 20, 21, 11, 37 # Dragonair(2 Attack), Tyrunt(1 Attack), Heracross(2 Attack), Sableye(1 Attack + 1 Defense), Mawile(1 Attack + 1 Defense)
+    40 ->	29, 31, 20, 21, 11, 39 # Audino(2 HP), Manectric(2 Speed), Noctowl(2 HP), Diggersby(2 HP)
+    41 ->	33, 33, 20, 21, 11, 41 # Noctowl(2 HP), Diggersby(2 Attack), Tyrantrum(2 Attack), Aerodactyl(2 Speed)
+    42 ->	37, 35, 20, 21, 11, 45 # Diggersby(2 HP), Golruk(2 Attack), Aipom(1 Speed), Aipom(1 Speed), Loudred(2 HP), Lopunny(2 Speed)
+    43 ->	37, 37, 24, 22, 13, 47 # Numel(1 SpAttack), Skarmory(2 Defense), Pidgeotto(2 Speed), Carnivine(2 Attack), Wormadam(2 SpDef), Wormadam(2 Defense)
+    44 ->	37, 37, 24, 22, 13, 47 # Wormadam(1 Defense + 1 SpDef), 
 :::
 
 ## Pokémon Gaia Any% Route
@@ -1275,218 +1280,259 @@ Heal before the next fight
   :::pokemon[Heracross]
     - Flame Wheel
   :::
-  :::pokemon[Mr. Mime]
-    - Surf
-  :::
-  :::pokemon[Venomoth]
-    - Surf
-  :::
-  :::pokemon[Alakazam]
-    - Surf
-  :::
-:::::
-
-Dig out, then Fly to Viridian and bike to the gym
-
-Take the spinny tile on the right
-
-:::::trainer[Blackbelt Takashi]
-  :::pokemon[Machoke]
-    - Water Pulse
-  :::
-  :::pokemon[Machop]
-    - Water Pulse
-  :::
-  :::pokemon[Machoke]
-    - Water Pulse
-  :::
-:::::
-
-:::::trainer[Cooltrainer Warren]
-  - Water Pulse
-  - Bite Rhyhorn
-:::::
-
-:::::trainer[Leader Giovanni]
-  :::pokemon[Rhyhorn]
-    - Water Pulse
-  :::
-  :::pokemon[Dugtrio]
-    - Water Pulse
-  :::
-  :::pokemon[Nidoqueen]
-    - Water Pulse
-  :::
-  :::pokemon[Nidoking]
-    - Water Pulse
-  :::
-  :::pokemon[Rhyhorn]
-    - Water Pulse
-  :::
-:::::
-
-After exiting, bike to Route 22
-
-Before the grass:
-- Candy to Level 60
-- Heal to survive 2 Wing Attacks and a Quick Attack
-- Teach Strength over Water Pulse if no Sandshrew
-
-:::::trainer[Rival 6]
-  :::pokemon[Pidgeot]
-    - X Special+(X Accuracy)+Surf
-    - Consider X Accuracy skip if felling Risky
-    ::damage[Pidgeot's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=60 evolution=2 opponentLevel=44 opponentStat=83 statModifier=1.1 special=false stab=true type=flying}
-    ::damage[Pidgeot's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=60 evolution=2 opponentLevel=44 opponentStat=83 statModifier=1.1 special=false stab=true type=normal}
-  :::
-  :::pokemon[Venusaur]
-    - Blizzard	 
-  :::
-  :::pokemon[Rhyhorn]
-    - Bite
-  :::
-  :::pokemon[Gyarados]
-    - Blizzard
-    :::if{source="Chimchar" condition="spatk=(x / x / 28-29)"}
-    - 81.3% to OHKO
+  :::pokemon[Sableye]
+    - Flame Wheel(x2)
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 0% to OHKO without Blaze
     :::
-    :::if{source="Chimchar" condition="spatk=(x / x / 30)"}
-    - 87.5% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 13-17 / x)"}
+    - 6.3% to OHKO without Blaze
     :::
-    :::if{source="Chimchar" condition="spatk=(x / x / 31)"}
-    - 93.8% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 18-25 / 0-4)"}
+    - 18.8% to OHKO without Blaze
     :::
+    :::if{source="Chimchar" condition="atk=(x / 26-30 / 5-9)"}
+    - 37.5% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 10-14)"}
+    - 50% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 10-14)"}
+    - 50% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 15-20)"}
+    - 68.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 21-25)"}
+    - 8.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 26-31)"}
+    - 93.8% to OHKO without Blaze
+    :::
+  ::damage[Sableye's Shadow Sneak]{source="Chimchar" offensive=false movePower=40 level=38 evolution=2 opponentLevel=30 opponentStat=52 special=false stab=true type=ghost}
+  ::damage[Sableye's Fake out]{source="Chimchar" offensive=false movePower=40 level=38 evolution=2 opponentLevel=30 opponentStat=52 special=false stab=true type=normal}
   :::
-  :::pokemon[Growlithe]
-    - Bite
+  :::pokemon[Mawile]
+    - Flame Wheel
   :::
-  :::pokemon[Alakazam]
-    - Surf 
+  :::pokemon[Audino]
+    - Flame Wheel x3-4
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 0% to 3HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
+    - 1.9% to 3HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ 13-18 / x)"}
+    - 35.2% to 3HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ 19-28 / 0-5)"}
+    - 62.6% to 3HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ 29-31 / 6-13)"}
+    - 97.8% to 3HKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ x / 14-31)"}
+    - 100% to 3HKO without Blaze
+    :::
+    ::damage[Audino's Charming Cry]{source="Chimchar" offensive=false movePower=40 level=39 evolution=2 opponentLevel=32 opponentStat=66 special=true stab=true type=normal}
+  :::
+  :::pokemon[Manectric]
+    - Close Combat/Flame Wheel*
   :::
 :::::
 
-Every trainer here is an optional trainer, so avoid them all
+Leave the Tower
 
-*Box heal and deposit slaves (from “Move” menu)*
+Bike towards the Regirock
 
-**Buy max Full Restores (vv)**
-
-:::::trainer[Elite Four Lorelei]
-  :::pokemon[Dewgong]
-    - X SpecialX2+BiteX2
-    :::if{source="Chimchar" condition="spatk=(x / x / 28-29)"}
-    - 95.3% to 2HKO wihtout BlackGlasses
+:::::trainer[New Elders Grunt 1]
+  :::pokemon[Noctowl]
+    - Flame Wheel/Rock Tomb
+    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
+    - 31.3% to OHKO with Flame Wheel
     :::
-    :::if{source="Chimchar" condition="speed=(x / x / 30-31)"}
-    - 98.8% to 2HKO wihtout BlackGlasses
+    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
+    - 37.5% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13 / x)"}
+    - 50% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 14-18 / x)"}
+    - 62.5% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 19-20 / 0)"}
+    - 68.8% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 21-28 / 1-5)"}
+    - 81.3% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 29-31 / 6-8)"}
+    - 93.8% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 9-31)"}
+    - 100% to OHKO with Flame Wheel
     :::
   :::
-  :::pokemon[Cloyster]
-    - Bite
-  :::
-  :::pokemon[Slowbro]
-    - Bite
-  :::
-  :::pokemon[Jynx]
-    - Surf
-  :::
-  :::pokemon[Lapras]
-    - Bite x3
-    ::damage[Lapras' Body Slam]{source="Chimchar" offensive=false movePower=85 level=62 evolution=2 opponentLevel=50 opponentStat=105 statModifier=1.1 special=false stab=false type=normal}
+  :::pokemon[Diggersby]
+    - Rock Smash
   :::
 :::::
 
-:::::trainer[Elite Four Bruno]
-  :::pokemon[Onix]
-    - Guard Spec+X SpecialX2+Bite
-    ::damage[Onix's Earthquake]{source="Chimchar" offensive=false movePower=100 level=62 evolution=2 opponentLevel=47 opponentStat=61 statModifier=1.1 special=false stab=true type=ground} 
-    ::damage[Onix's Rock Tomb]{source="Chimchar" offensive=false movePower=50 level=62 evolution=2 opponentLevel=47 opponentStat=61 statModifier=1.1 special=false stab=true type=rock}
+:::::trainer[New Elders Grunt 2]
+  :::pokemon[Diggersby]
+    - Rock Smash
   :::
-  :::pokemon[Hitmonchan]
-    -  Surf
-  :::
-  :::pokemon[Hitmonlee]
-    -  Surf
-  :::
-  :::pokemon[Machamp]
-    -  Surf
-  :::
-  :::pokemon[Onix]
-    -  Bite
+  :::pokemon[Noctowl]
+    - Flame Wheel/Rock Tomb
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 81.3% to OHKO with Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13- / 0-31)"}
+    - 100% to OHKO with Flame Wheel
+    :::
   :::
 :::::
 
-Heal out of Agatha kill range, but keep Torrent if possible
-
-:::::trainer[Elite Four Agatha]
-  :::pokemon[Gengar]
-    - X Special+Surf
-    - Skip X Speical if torrent
-    ::damage[Gengar's Shadow Punch]{source="Chimchar" offensive=false movePower=60 level=64 evolution=2 opponentLevel=50 opponentStat=93 statModifier=1.1 special=false stab=true type=ghost}
-  :::
-  :::pokemon[Golbat]
-    - Surf
-  :::
-  :::pokemon[Arbok]
-    - Surf
-  :::
-  :::pokemon[Gengar]
-    - Surf
-  :::
-  :::pokemon[Haunter]
-    - Surf
-  :::
-:::::
-
-Heal to Full before Lance
-
-:::::trainer[Elite Four Lance]
-  :::pokemon[Gyarados]
-    - AccuracyX1-2+BlizzardX2
-    - Use X Accuracy depening on how slow/fast you want to go
-    ::damage[Gyarados' Hyper Beam ]{source="Chimchar" offensive=false movePower=150 level=65 evolution=2 opponentLevel=52 opponentStat=150 statModifier=1.1 special=false stab=false type=normal}
-  :::
-  :::pokemon[Dragonair]
-    - Blizzard
-  :::
-  :::pokemon[Dragonair]
-    - Blizzard
-  :::
-  :::pokemon[Dragonite]
-    - Blizzard
+:::::trainer[Elder Knight Enoch]
+  :::pokemon[Tyrantrum]
+    - Close Combat
   :::
   :::pokemon[Aerodactyl]
-    - Surf
-    ::damage[Aerodactyl's Hyper Beam]{source="Chimchar" offensive=false movePower=150 level=6 evolution=2 opponentLevel=54 opponentStat=120 statModifier=1.1 special=false stab=false type=normal}
+    - Close Combat
+  :::
+  :::pokemon[Diggersby]
+    - Rock Smash
+  :::
+  :::pokemon[Golruk]
+    - Flame Wheel x2
+    - You can die if he gets Magnitude7+
   :::
 :::::
 
-Heal to Full + Elixir before Champion
+Go inside the cave
+- Get the map
+- Go Back towards the town
+- Get your gift Ivysaur
 
-:::::trainer[Champion]
-  :::pokemon[Pidgeot]
-    - Guard Spec+X Special+X Accuracy+Surf
-    ::damage[Pidgeot's Aerial Ace]{source="Chimchar" offensive=false movePower=60 level=67 evolution=2 opponentLevel=55 opponentStat=110 statModifier=1.1 special=false stab=true type=flying}
+Go back towards Harbor
+- Do not enter the Harbor
+- Use Max Repel
+- Teach Surf to zigzagoon/bidoof
+- Surf towards left side near the Harbor
+
+Go through all the area(all trainers are optional)
+
+:::::trainer[Pokemaniac Eric]
+  :::pokemon[Aipom]
+    - Rock Smash
   :::
-  :::pokemon[Venusaur]
-    - Blizzard
+  :::pokemon[Aipom]
+    - Rock Smash
   :::
-  :::pokemon[Alakazam]
-    - Surf
-  :::
-  :::pokemon[Rhydon]
-    - Surf
-  :::
-  :::pokemon[Gyarados]
-    - Bite + Blizzard
-    - Without Blackglasses, 95.31% range with 28-29 Sp. Atk IV; 98.05% range with 30 Sp. Atk IV; 99.22% with 31 Sp. Atk IV
-    ::damage[Gyarados's Thrash]{source="Chimchar" offensive=false movePower=90 level=68 evolution=2 opponentLevel=55 opponentStat=143 statModifier=1.1 special=false stab=false type=normal}
-  :::
-  :::pokemon[Arcanine]
-    - Surf
-    ::damage[Arcanine's Extremespeed]{source="Chimchar" offensive=false movePower=80 level=56 evolution=2 opponentLevel=61 opponentStat=158 statModifier=1.1 special=false stab=false type=normal}
 :::::
 
-Ending split is on fadeout after Hall of Fame
+Go up 
+- Then surf left and up
+- Go right
 
-**Congrats if you made it this far into the run**
+:::::trainer[Pokemaniac Doug]
+  :::pokemon[Loudred]
+    - Rock Smash
+  :::
+  :::pokemon[Lopunny]
+    - Rock Smash
+    ::damage[Lopunny's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=41 evolution=2 opponentLevel=29 opponentStat=45 special=false stab=true type=normal}
+  :::
+:::::
+
+Surf right
+- then go down
+
+:::::trainer[Ace Trainer Colton]
+  :::pokemon[Numel]
+    - Rock Smash
+  :::
+  :::pokemon[Skarmory]
+    - Close Combat
+    :::if{source="Chimchar" condition="atk=(28-29 / x / x)"}
+    - 37.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(30-31 / x / x)"}
+    - 50% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
+    - 62.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 15-19 / x)"}
+    - 75% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-24 / 0-3)"}
+    - 87.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 25-31 / 4-31)"}
+    - 100% to OHKO
+    :::
+  :::
+:::::
+
+Immediately go up and use surf after entering the town
+
+:::::trainer[Ranger Janae]
+  :::pokemon[Pidgeotto]
+    - Flame Wheel
+    ::damage[{Pidgeotto}'s Quick Attack]{source="Chimchar" offensive=false movePower=40 level=42 evolution=2 opponentLevel=29 opponentStat=39 special=false stab=true type=normal}
+  :::
+  :::pokemon[Carnivine]
+    - Flame Wheel
+  :::
+:::::
+
+Enter Nemesis Cave go through it 
+- All trainers are optionals
+- Go near the Tablet
+- Escape Rope Out after talking to Tablet
+
+Go Back to the town and enter Building right of Gym(Bug Catching Contest)
+- Talk part in Contest
+- Catch any Pokemon
+- Withdraw all mons from PC and go to the Gym
+
+Fight the Bug Catcher on the Bottom left
+
+:::::trainer[Bug Catcher James]
+  :::pokemon[Wormadam]
+    - Flame Wheel
+  :::
+  :::pokemon[Wormadam]
+    - Flame Wheel
+  :::
+  :::pokemon[Wormadam]
+    - Flame Wheel
+  :::
+:::::
+
+Step on the Hexagon
+
+Fight the Bug Catcher on the right
+
+:::::trainer[Bug Catcher Claude]
+  :::pokemon[Anorith]
+    - Flame Wheel
+  :::
+  :::pokemon[Dwebble]
+    - Flame Wheel x2
+  :::
+:::::
+
+Step on the Hexagon
+
+:::::trainer[Picknicker Ruby]
+  :::pokemon[Forretress]
+    - Rock Smash
+    ::damage[Forretress's Explosion]{source="Chimchar" offensive=false movePower=250 level=43 evolution=2 opponentLevel=31 opponentStat=70 special=false stab=false type=normal}
+:::::
+
+Step on the Hexagon
+
+Talk to the Ace Trainer
