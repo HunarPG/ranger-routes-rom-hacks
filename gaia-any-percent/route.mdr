@@ -75,7 +75,7 @@ Minimum stats for Chimchar:-
 - Defense :- 4+/0+/0+
 - SpAttack :- 28+/13+/0+
 - SpDef :- 4+/0+/0+
-- Speed :- 28+/+/0+
+- Speed :- 28+/12+/0+
 
 Make sure your Chimchar can survive Chatot's Flatter and preferably is faster too but not required
 
@@ -162,7 +162,14 @@ Go left and talk to fight the Youngster
 
 :::::trainer[Youngster Cory]
   :::pokemon[Pidgey]
-    - Scratch x3-4
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-17 / 0)"}
+    - Scratch x3 is 1.1% to 3HKO
+    - Leer+Scratch is 9% to 3HKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 18-31 / 1-31)"}
+    - Scratch x3 is 99% to 3HKO
+    - Leer+Scratch is 9% to 3HKO
+    :::
     ::damage[Pidgey's Tackle]{source="Chimchar" offensive=false movePower=50 level=6 opponentLevel=4 opponentStat=8 special=false stab=true type=normal}
   :::
 :::::
@@ -198,6 +205,15 @@ After talking to the Rival and proffesor head left
 :::::trainer[Youngster Jenson]
   :::pokemon[Buneary]
     - Ember x2
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-21 / 0-8)"}
+    - 0% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 22-31 / 9-21)"}
+    - 6.3% to OHKO with Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 22-31)"}
+    - 100% to OHKO with Blaze
+    :::
     ::damage[Buneary's Pound]{source="Chimchar" offensive=false movePower=40 level=8 opponentLevel=4 opponentStat=10 special=false stab=true type=normal}
   :::
   :::pokemon[Mareep]
@@ -214,6 +230,7 @@ Go Up and fight the lass by talking to her
 :::::trainer[Lass Lanessa]
   :::pokemon[Ralts]
     - Ember(x2)
+    - 100% to OHKO with Blaze
     :::if{source="Chimchar" condition="spatk=(28 / x / x)"}
     - 0% to OHKO without Blaze
     :::
@@ -390,13 +407,15 @@ Go a little up Immediately turn left
 Leave the Daycare
 - Teach Cut to Monferno over Scratch(Also register TM Case)
 
-Go near the Archn Tunnel exit and left
+Go near the Archen Tunnel exit and head left towards the cut tree
 - Cut the tree near entrance of the next cave and go inside
 
 Leave after talking to proffesor
 
 Head right to Aerous Road
 - Use repel on the Bag manip to avoid Youngster
+
+Grabt the Super Repel in Pokeball near Bug Catcher
 
 Go right and talk to the Bug Catcher to fight him
 
@@ -407,26 +426,26 @@ Go right and talk to the Bug Catcher to fight him
   :::pokemon[Surskit]
     - Cut(x2)
     - Do not learn Fury Swipes
-    :::if{source="Chimchar" condition="atk=(28-31 / 13-16 / 0-2)"}
-    - 0% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 17-22 / 0-9)"}
+    :::if{source="Chimchar" condition="atk=(28-29 / x / x)"}
     - 6.3% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / 23-29 / x)"}
+    :::if{source="Chimchar" condition="atk=(30-31 / x / x)"}
     - 25% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / 30-31 / 10-16)"}
+    :::if{source="Chimchar" condition="atk=(x / 13-16 / 0-2)"}
     - 43.8% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 17-22)"}
+    :::if{source="Chimchar" condition="atk=(x / 17-22 / 3-9)"}
     - 56.3% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 23-29)"}
+    :::if{source="Chimchar" condition="atk=(x / 23-29 / x)"}
     - 75% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 30-31)"}
+    :::if{source="Chimchar" condition="atk=(x / 30-31 / 10-16)"}
     - 87.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 17-31)"}
+    - 100% to OHKO
     :::
   :::
 :::::
@@ -443,25 +462,22 @@ Enter the town and go straight towards the Museum
   :::pokemon[Natu]
     - Cut/Ember x2(x3)
     :::if{source="Chimchar" condition="atk=(28-30 / x / x)"}
-    - 4.3% to 2HKO with Cut
-    :::
-    :::if{source="Chimchar" condition="atk=(31 / x / x)"}
-    - 41.4% to 2HKO with Cut
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 13-24 / 0-7)"}
     - 90.2% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(x / 25-31 / 8-31)"}
+    :::if{source="Chimchar" condition="atk=(31 / 13-17 / x)"}
     - 99.6% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 31.3% to 2HKO with Ember without Blaze
+    :::if{source="Chimchar" condition="atk=(x / 18-31 / 0-31)"}
+    - 100% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(x / 13-30 / 0-11)"}
-    - 94.1% to 2HKO with Ember without Blaze
+    :::if{source="Chimchar" condition="spatk=(28-31 / x / x)"}
+    - 31.3% to 2HKO with Ember
     :::
-    :::if{source="Chimchar" condition="atk=(x / 31 / 12-31)"}
-    - 100% to 2HKO with Ember without Blaze
+    :::if{source="Chimchar" condition="spatk=(x / 13-30 / 0-11)"}
+    - 94.1% to 2HKO with Ember
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 31 / 12-31)"}
+    - 100% to 2HKO with Ember
     :::
     ::damage[Natu's Peck]{source="Chimchar" offensive=false movePower=35 level=16 evolution=1 opponentLevel=14 opponentStat=20 special=false stab=true type=flying}
   :::
@@ -475,23 +491,30 @@ Use Potion(if took damage) and enter the Museum
 
 :::::trainer[Mysteriou Grunt 1]
   :::pokemon[Hoothoot]
-    - Mach Punch x2
+    - Mach Punch x2(x3)
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-30 / 0-11)"}
+    - Has a small chance to not 2HKO with if he uses Growl
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 12-31)"}
+    - Always 2HKO after Growl
+    :::
     ::damage[Hoothoot's Peck]{source="Chimchar" offensive=false movePower=35 level=17 evolution=1 opponentLevel=15 opponentStat=14 special=false stab=true type=flying}
   :::
   :::pokemon[Natu]
     - Cut/Ember x2(x3)
     - Ember + Ember* will Always kill
-    :::if{source="Chimchar" condition="atk=(28-31 / 13 / x)"}
-    - 4.3% to 2HKO with Cut
+    - Never 2HKO with Cut after Growl
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 4.14% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(x / 14-25 / 0-7)"}
-    - 41.4% to 2HKO with Cut
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-19)"}
+    :::if{source="Chimchar" condition="atk=(x / 13-19 / 0-1)"}
     - 82% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 20-31)"}
+    :::if{source="Chimchar" condition="atk=(x / 20-25 / 1-7)"}
     - 98.4% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-31)"}
+    - 100% to 2HKO with Cut
     :::
     :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
     - 0% to 2HKO with Ember without Blaze
@@ -563,31 +586,48 @@ Talk to the girl to fight her
 
 :::::trainer[Battle Girl Martha]
   :::pokemon[Mankey]
-    - Ember/Mach Punch x2
-    :::if{source="Chimchar" condition="atk=(28-31 / 13-20 / 0-4)"}
-    - 5.9% to 2HKO with Ember without Blaze
+    - Rock Smash(x2)
+    - If you don't want to go for the rock smash OHKO(as it can be slower with defense drop) just use Mach Punch x2
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-20 / 1-4)"}
+    - 0% to OHKO with Rock Smash
     :::
     :::if{source="Chimchar" condition="atk=(x / 21-31 / 5-15)"}
-    - 59% to 2HKO with Ember without Blaze
+    - 6.3% to OHKO with Rock Smash
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 16-31)"}
-    - 96.5% to 2HKO with Ember without Blaze
+    :::if{source="Chimchar" condition="atk=(x / x / 16-20)"}
+    - 25% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 21-31)"}
+    - 43.8% to OHKO with Rock Smash
     :::
     ::damage[Mankey's Karate Chop]{source="Chimchar" offensive=false movePower=50 level=18 evolution=1 opponentLevel=17 opponentStat=35 special=false stab=false type=fighting}
   :::
   :::pokemon[Timburr]
-    - Ember x2(x3)
-    :::if{source="Chimchar" condition="atk=(28-31 / 13-15 / 0-4)"}
-    - 0% to 2HKO with Ember without Blaze
+    - Rock Smash x2(x3)
+    - If you defense drop you always 2HKO
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 0% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-15 / x)"}
+    - 4.3% to OHKO with Rock Smash
     :::
     :::if{source="Chimchar" condition="atk=(x / 16-26 / 0-9)"}
-    - 4.3% to 2HKO with Ember without Blaze
+    - 41.4% to OHKO with Rock Smash
     :::
-    :::if{source="Chimchar" condition="spatk=(x / 27-31 / 10-20)"}
-    - 41.3% to 2HKO with Ember without Blaze
+    :::if{source="Chimchar" condition="atk=(x / 27-31 / 10-26)"}
+    - 90.2% to OHKO with Rock Smash
     :::
-    :::if{source="Chimchar" condition="spatk=(x / x / 21-31)"}
-    - 90.2% to 2HKO with Ember without Blaze
+    :::if{source="Chimchar" condition="atk=(x / x / 27-31)"}
+    - 99.6% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="spatk=(28-31 / 13-26 / 0-9)"}
+    - 0% to OHKO with Ember
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 27-31 / 10-26)"}
+    - 4.3% to OHKO with Ember
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 27-31)"}
+    - 41.4% to OHKO with Ember
     :::
     ::damage[Timburr's Low Kick]{source="Chimchar" offensive=false movePower=40 level=18 evolution=1 opponentLevel=17 opponentStat=32 special=false stab=false type=fighting}
   :::
