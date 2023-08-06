@@ -16,29 +16,29 @@
     19 ->	9, 9, 5, 5, 2, 6 # Mankey(1 Attack), Timburr(1 Attack), Timburr(1 Attack)
     20 ->	10, 10, 5, 6, 2, 6 # Croagunk(1 Attack), Munna(1 HP), Psyduck(1 SpAttack)
     21 ->	10, 10, 5, 6, 2, 6 # 
-    22 ->	11, 10, 5, 6, 3, 6 # Makuhita(1 HP), Swablu(1 SpDef)
-    23 ->	11, 10, 6, 8, 3, 7 # Prinplup(2 SpAttack), Roggenrola(1 Defense), Murkrow(1 Speed)
-    24 ->	11, 11, 7, 8, 5, 7 # Togetic(2 SpDef), Vullaby(1 Defense), Chatot(1 Attack)
-    25 ->	11, 11, 9, 8, 5, 7 # Gligar(1 Defense), Tangela(1 Defense)
-    26 ->	12, 11, 11, 8, 5, 8 # Tangela(1 Defense), Yanma(1 Speed), Relicanth(1 HP + 1 Defense)
-    27 ->	13, 12, 11, 8, 6, 8 # Baltoy(1 SpDef), Diggersby(2 HP), Binacle(1 Attack)
-    28 ->	16, 13, 11, 8, 6, 10 # Snover(1 Attack), Noctowl(2HP), Amaura(1 HP), Froslass(2 Speed)
-    29 ->	16, 13, 11, 8, 6, 13 # Ponyta(1 Speed), Ponyta(1 Speed), Pansear(1 Speed)
-    30 ->	16, 13, 11, 9, 6, 20 # Charmeleon(1 SpAttack + 1 Speed), Staravia(2 Speed), Swellow(2 Speed), Pidgeotto(2 Speed)
-    31 ->	16, 14, 14, 10, 6, 21 # Xatu(1 SpAttack + 1 Speed), Boldore(1 Attack + 1 Defense), Nosepass(1 Defense), Bronzor(1 Defense)
-    32 ->	17, 15, 18, 10, 6, 21 # Graveler(2 Defense), Relicanth(1 HP + 1 Defense), Kabuto(1 Defense), Cranidos(1 Attack)
-    33 ->	19, 15, 18, 12, 6, 24 # Noctowl(2HP), Numel(1 SpAttack), Numel(1 SpAttack), Pansear(1 Speed), Simisear(2 Speed)
-    34 ->	19, 18, 18, 15, 6, 25 # Litleo(1 SpAttack), Monferno(1 SpAttack, 1 Speed), Pignite(2 Attack), Camerupt(1 Attack + 1 SpAttack)
-    35 ->	21, 18, 18, 19, 6, 26 # Magmar(2 SpAttack), Heatmor(2 SpAttack), Glameow(1 Speed), Diggersby(2 HP)
-    36 ->	22, 21, 18, 19, 6, 29 # Teddiursa(1 Attack), Herdier(2 Attack), Skiddo(1 HP), Jumpluff(3 Speed)
-    37 ->	22, 22, 18, 21, 8, 33 # Wormadam(2 SpDef), Grovyle(2 Speed), Litleo(1 SpAttack), Numel(1 SpAttack), Fletchinder(2 Speed), Larvesta(1 Attack)
-    38 ->	23, 24, 18, 21, 11, 37 # Barboach(1 HP), Basculin(2 Speed), Basculin(2 Speed), Mantine(2 SpDef), Goomy(1 SpDef), Gabite(2 Attack)
-    39 ->	23, 31, 20, 21, 11, 37 # Dragonair(2 Attack), Tyrunt(1 Attack), Heracross(2 Attack), Sableye(1 Attack + 1 Defense), Mawile(1 Attack + 1 Defense)
-    40 ->	29, 31, 20, 21, 11, 39 # Audino(2 HP), Manectric(2 Speed), Noctowl(2 HP), Diggersby(2 HP)
-    41 ->	33, 33, 20, 21, 11, 41 # Noctowl(2 HP), Diggersby(2 Attack), Tyrantrum(2 Attack), Aerodactyl(2 Speed)
-    42 ->	37, 35, 20, 21, 11, 45 # Diggersby(2 HP), Golruk(2 Attack), Aipom(1 Speed), Aipom(1 Speed), Loudred(2 HP), Lopunny(2 Speed)
-    43 ->	37, 37, 24, 22, 13, 47 # Numel(1 SpAttack), Skarmory(2 Defense), Pidgeotto(2 Speed), Carnivine(2 Attack), Wormadam(2 SpDef), Wormadam(2 Defense)
-    44 ->	37, 37, 24, 22, 13, 47 # Wormadam(1 Defense + 1 SpDef), 
+    22 ->	11, 12, 5, 6, 3, 6 # Solrock(2 Attack), Makuhita(1 HP), Swablu(1 SpDef)
+    23 ->	11, 12, 6, 8, 3, 7 # Prinplup(2 SpAttack), Roggenrola(1 Defense), Murkrow(1 Speed)
+    24 ->	11, 13, 7, 8, 5, 7 # Togetic(2 SpDef), Vullaby(1 Defense), Chatot(1 Attack)
+    25 ->	11, 13, 9, 8, 5, 7 # Gligar(1 Defense), Tangela(1 Defense)
+    26 ->	12, 13, 11, 8, 5, 8 # Tangela(1 Defense), Yanma(1 Speed), Relicanth(1 HP + 1 Defense)
+    27 ->	13, 14, 11, 8, 6, 8 # Baltoy(1 SpDef), Diggersby(2 HP), Binacle(1 Attack)
+    28 ->	16, 15, 11, 8, 6, 10 # Snover(1 Attack), Noctowl(2HP), Amaura(1 HP), Froslass(2 Speed)
+    29 ->	16, 15, 11, 8, 6, 13 # Ponyta(1 Speed), Ponyta(1 Speed), Pansear(1 Speed)
+    30 ->	16, 15, 11, 9, 6, 20 # Charmeleon(1 SpAttack + 1 Speed), Staravia(2 Speed), Swellow(2 Speed), Pidgeotto(2 Speed)
+    31 ->	16, 16, 14, 10, 6, 21 # Xatu(1 SpAttack + 1 Speed), Boldore(1 Attack + 1 Defense), Nosepass(1 Defense), Bronzor(1 Defense)
+    32 ->	17, 17, 18, 10, 6, 21 # Graveler(2 Defense), Relicanth(1 HP + 1 Defense), Kabuto(1 Defense), Cranidos(1 Attack)
+    33 ->	19, 17, 18, 12, 6, 24 # Noctowl(2HP), Numel(1 SpAttack), Numel(1 SpAttack), Pansear(1 Speed), Simisear(2 Speed)
+    34 ->	19, 20, 18, 15, 6, 25 # Litleo(1 SpAttack), Monferno(1 SpAttack, 1 Speed), Pignite(2 Attack), Camerupt(1 Attack + 1 SpAttack)
+    35 ->	21, 20, 18, 19, 6, 26 # Magmar(2 SpAttack), Heatmor(2 SpAttack), Glameow(1 Speed), Diggersby(2 HP)
+    36 ->	22, 23, 18, 19, 6, 29 # Teddiursa(1 Attack), Herdier(2 Attack), Skiddo(1 HP), Jumpluff(3 Speed)
+    37 ->	22, 24, 18, 21, 8, 33 # Wormadam(2 SpDef), Grovyle(2 Speed), Litleo(1 SpAttack), Numel(1 SpAttack), Fletchinder(2 Speed), Larvesta(1 Attack)
+    38 ->	23, 26, 18, 21, 11, 37 # Barboach(1 HP), Basculin(2 Speed), Basculin(2 Speed), Mantine(2 SpDef), Goomy(1 SpDef), Gabite(2 Attack)
+    39 ->	23, 33, 20, 21, 11, 37 # Dragonair(2 Attack), Tyrunt(1 Attack), Heracross(2 Attack), Sableye(1 Attack + 1 Defense), Mawile(1 Attack + 1 Defense)
+    40 ->	29, 33, 20, 21, 11, 39 # Audino(2 HP), Manectric(2 Speed), Noctowl(2 HP), Diggersby(2 HP)
+    41 ->	33, 35, 20, 21, 11, 41 # Noctowl(2 HP), Diggersby(2 Attack), Tyrantrum(2 Attack), Aerodactyl(2 Speed)
+    42 ->	37, 37, 20, 21, 11, 45 # Diggersby(2 HP), Golruk(2 Attack), Aipom(1 Speed), Aipom(1 Speed), Loudred(2 HP), Lopunny(2 Speed)
+    43 ->	37, 39, 24, 22, 13, 47 # Numel(1 SpAttack), Skarmory(2 Defense), Pidgeotto(2 Speed), Carnivine(2 Attack), Wormadam(2 SpDef), Wormadam(2 Defense)
+    44 ->	37, 39, 24, 22, 13, 47 # Wormadam(1 Defense + 1 SpDef), 
 :::
 
 ## Pokémon Gaia Any% Route
@@ -657,10 +657,38 @@ Go up then left then up and Heal before fighting next trainer also Equip Charcoa
     :::if{source="Chimchar" condition="spatk=(x / x / 21-31)"}
     - 98.4% to 2HKO with Ember without Blaze
     :::
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-26 / 0-9)"}
+    - 0% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 27-31 / 10-20)"}
+    - 4.3% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 21-31)"}
+    - 41.4% to 2HKO with Rock Smash
+    :::
     ::damage[Timburr's Low Kick]{source="Chimchar" offensive=false movePower=40 level=18 evolution=1 opponentLevel=18 opponentStat=33 special=false stab=false type=fighting}
   :::
   :::pokemon[Croagunk]
     - Flame Wheel*(x2)
+    - 100% to OHKO with Blaze
+    :::if{source="Chimchar" condition="atk=(27-31 / 13-15 / x)"}
+    - 0% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 16-20 / 0-5)"}
+    - 6.3% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 21-26 / 6-10)"}
+    - 25% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 27-31 / 11-20)"}
+    - 43.8% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 21-26)"}
+    - 62.5% to OHKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 27-31)"}
+    - 75% to OHKO with Flame Wheel without Blaze
+    :::
   :::
 :::::
 
@@ -685,15 +713,19 @@ Use Rare Candy to level 21
 :::::trainer[Psychic Finley]
   :::pokemon[Solrock]
     - Cut x2(x3)
-    :::if{source="Chimchar" condition="atk=(28-31 / 13-18 / x)"}
-    - 64.8% to 2HKO with Cut
+    :::if{source="Chimchar" condition="atk=(28-31 / 13-18 / 0-3)"}
+    - 5.1% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(x / 19-31 / 0-13)"}
-    - 97.3% to 2HKO with Cut
+    :::if{source="Chimchar" condition="atk=(x / 19-31 / 4-13)"}
+    - 54.3% to 2HKO with Cut
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 14-31)"}
+    :::if{source="Chimchar" condition="atk=(x / x / 14-22)"}
+    - 93.8% to 2HKO with Cut
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 23-31)"}
     - 100% to 2HKO with Cut
     :::
+    ::damage[Solrock's Confusion]{source="Chimchar" offensive=false movePower=50 level=21 evolution=1 opponentLevel=20 opponentStat=29 special=true stab=true type=Psychic}
   :::
 :::::
 
@@ -707,31 +739,54 @@ Head towards the gym
 :::::trainer[Rival 2]
   :::pokemon[Makuhita]
     - X Attack + Rock Smash
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 62.5% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13 / x)"}
+    - 75% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 14-18 / 0-3)"}
+    - 87.5% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 19-31 / 4-31)"}
+    - 100% to OHKO with Rock Smash
+    :::
   :::
   :::pokemon[Swablu]
     - Rock Tomb/Flame Wheel
-    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 18.8% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 87.5% to OHKO with Flame Wheel
     :::
-    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
-    - 37.5% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
-    - 50% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 15-24 / 0-5)"}
-    - 75% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 25-31 / 6-31)"}
+    :::if{source="Chimchar" condition="atk=(x / 13-31 / 0-31)"}
     - 100% to OHKO with Flame Wheel
     :::
   :::
   :::pokemon[Prinplup]
     - Rock Smash x2
+    :::if{source="Chimchar" condition="speed=(28-31 / 12-14 / x)"}
+    - You are speed tied after Bubble Speed drop
+    - You should use mach punch if defense drop or heal if no defense drop
+    :::
+    :::if{source="Chimchar" condition="speed=(x / 15-31 / 0-31)"}
+    - You are faster after Bubble Speed drop
+    :::
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 32.4% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-19 / 0-1)"}
+    - 74.6% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-28 / 2-10)"}
+    - 96.5% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 29-31 / 11-31)"}
+    - 100% to 2HKO with Rock Smash
+    :::
     ::damage[Prinplup's Bubble]{source="Chimchar" offensive=false movePower=40 level=22 evolution=1 opponentLevel=22s opponentStat=44 special=true stab=true type=Water}
   :::
   :::pokemon[Roggenrola]
-    - Flame Wheel + Rock Smash
+    - Cut + Rock Smash
+    - Rock Smash x2 if it Iron Defenses up
     - Heal if below 20 HP
   :::
 :::::
@@ -751,10 +806,10 @@ Solve the Puzzle in front of him
     - Flame Wheel/Rock Tomb
     - Rock Tomb always kills(if it hits)
     :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 37.5% to OHKO with Flame Wheel without Blaze
+    - 56.3% to OHKO with Flame Wheel without Blaze
     :::
     :::if{source="Chimchar" condition="atk=(29-31 / 13-14 / 0-1)"}
-    - 56.3% to OHKO with Flame Wheel without Blaze
+    - 68.8% to OHKO with Flame Wheel without Blaze
     :::
     :::if{source="Chimchar" condition="atk=(x / 15-19 / x)"}
     - 81.3% to OHKO with Flame Wheel without Blaze
@@ -771,7 +826,7 @@ Solve the Puzzle in front of him
     ::damage[Murkrow's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=22 evolution=1 opponentLevel=19 opponentStat=37 special=false stab=true type=flying}
   :::
   :::pokemon[Togetic]
-    - Flame Wheel x2-3
+    - Flame Wheel x2
     ::damage[Togetic's Fairy Wind]{source="Chimchar" offensive=false movePower=40 level=23 evolution=1 opponentLevel=19 opponentStat=35 special=true stab=true type=electric}
   :::
 :::::
@@ -780,12 +835,23 @@ Heal before gym Leader Aria
 
 :::::trainer[Gym Leader Aria]
   :::pokemon[Vullaby]
-    - Rock Tomb x2
+    - Rock Tomb x2/Flame Wheel x2(x3)
     - You are always slower after a Scary Face
+    - Sac zigzagoon if you get Scary Faced
+    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
+    - 43.8% to 2HKO with Flame Wheel without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
+    - 84.4% to 2HKO with Flame Wheel without Blaze
+    - 100% to 2HKO with Rock Tomb + Flame Wheel
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 15-31 / 0-31)"}
+    - 100% to 2HKO with Flame Wheel without Blaze
+    :::
     ::damage[Vullaby's Aerial Ace]{source="Chimchar" offensive=false movePower=60 level=23 evolution=1 opponentLevel=21 opponentStat=28 special=false stab=true type=flying}
   :::
   :::pokemon[Chatot]
-    - Rock Tomb x2
+    - Rock Tomb + Flame Wheel
     - If you got growled or confused switch out and switch back in 
     :::if{source="Chimchar" condition="speed=(28-31 / 12-19 / 0-2)"}
     - You are slower
