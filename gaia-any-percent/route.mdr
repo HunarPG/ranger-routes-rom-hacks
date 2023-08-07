@@ -23,7 +23,10 @@
     26 ->	12, 13, 11, 8, 5, 8 # Tangela(1 Defense), Yanma(1 Speed), Relicanth(1 HP + 1 Defense)
     27 ->	14, 14, 11, 8, 6, 8 # Baltoy(1 SpDef), Diggersby(2 HP), Binacle(1 Attack)
     28 ->	17, 15, 11, 8, 6, 10 # Snover(1 Attack), Noctowl(2 HP), Amaura(1 HP), Froslass(2 Speed)
-    29 ->	17, 15, 11, 8, 6, 10 # 
+    29 ->	17, 15, 11, 8, 6, 13 # Ponyta(1 Speed), Ponyta(1 Speed), Pansear(1 Speed)
+    30 ->	17, 15, 11, 9, 6, 20 # Charmeleon(1 SpAttack + 1 Speed), Staravia(2 Speed), Swellow(2 Speed), Pidgeotto(2 Speed)
+    31 ->	17, 16, 14, 10, 6, 21 # Xatu(1 spatk + 1 Speed), Boldore(1 Attack + 1 Defense), Nosepass(1 Defense), Bronzor(1 Defense)
+    32 ->	17, 16, 14, 10, 6, 21 # 
 :::
 
 ## Pokémon Gaia Any% Route
@@ -825,10 +828,6 @@ Heal before gym Leader Aria
   :::
 :::::
 
-Go to the mart and buy:-
-- 2 Super Repels
-- 2 Super Potions
-
 Head back to Frostbite Cave
 - Use Repel after entering(Use Super Repel when it's over)
 
@@ -986,6 +985,9 @@ Go upstairs and talk to fight the Admin
 
 Leave the Frostbite Cave
 
+Go to the mart and buy:-
+- 3 Super Repels
+
 Go up towards Pokemon center and enter the house right of pokemon center
 
 Sell:-
@@ -998,7 +1000,7 @@ Buy:-
 
 Head north after exiting
 
-Menu before the Grass and heal to full
+Menu before the Grass and use Super Repel
 
 :::::trainer[Kindler Milan]
   :::pokemon[Ponyta]
@@ -1015,25 +1017,19 @@ Go through the route avoiding all optional trainers
   :::pokemon[Pansear]
     - Rock Tomb
     - Do not learn Torment
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 81.3% to OHKO
-    :::
   :::
   :::pokemon[Charmeleon]
     - Rock Tomb(+Mach Punch)
-    :::if{source="Chimchar" condition="atk=(28-31 / 13 / x)"}
-    - 31.3% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 18-23 / 1-6)"}
+    - 62.5% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / 14-20 / 0-3)"}
-    - 50% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 24-30 / 7-13)"}
+    - 75% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / 21-27 / 4-9)"}
-    - 68.8% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 31 / 14-20)"}
+    - 93.8% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / 28-30 / 10-13)"}
-    - 87.5% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 31 / 14-31)"}
+    :::if{source="Chimchar" condition="atk=(x / x / 21-31)"}
     - 100% to OHKO
     :::
   :::
@@ -1047,12 +1043,7 @@ Go through the route avoiding all optional trainers
   :::
   :::pokemon[Swellow]
     - Flame Wheel x2
-    :::if{source="Chimchar" condition="speed=(28-31 / x / x)"}
-    - You are slower
-    :::
-    :::if{source="Chimchar" condition="speed=(x / 12-31 / 0-31)"}
-    - You are faster
-    :::
+    - You are always faster
     ::damage[Swellow's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=29 evolution=1 opponentLevel=23 opponentStat=44 special=false stab=true type=flying}
     ::damage[Swellow's Quikck Attack]{source="Chimchar" offensive=false movePower=40 level=29 evolution=1 opponentLevel=23 opponentStat=44 special=false stab=true type=normal}
   :::
@@ -1067,7 +1058,7 @@ Go up get your team healed
 :::::trainer[New Elders Grunt 1]
   :::pokemon[Xatu]
     - Rock Tomb(+Flame Wheel)
-    ::damage[Xatu's Peck]{source="Chimchar" offensive=false movePower=35 level=30 evolution=1 opponentLevel=23 opponentStat=40 special=false stab=true type=flying}
+    ::damage[Xatu's Peck]{source="Chimchar" offensive=false movePower=35 level=30 evolution=1 opponentLevel=23 opponentStat=39 special=false stab=true type=flying}
   :::
   :::pokemon[Boldore]
     - Mach Punch(+ Rock Smash)
@@ -1079,16 +1070,7 @@ Go up get your team healed
     - Mach Punch x2
   :::
   :::pokemon[Bronzor]	
-    - Flame Wheel(+Mach Punch)
-    :::if{source="Chimchar" condition="atk=(28-30 / x / x)"}
-    - 68.8% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(31 / 13-17 / 0)"}
-    - 87.5% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 18-31 / 1-3)"}
-    - 100% to OHKO
-    :::
+    - Flame Wheel
   :::
 :::::
 
