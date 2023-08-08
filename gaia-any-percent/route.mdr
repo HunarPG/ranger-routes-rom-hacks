@@ -36,7 +36,11 @@
     39 ->	24, 31, 20, 22, 13, 36 # Dragonair(2 Attack), Tyrunt(1 Attack), Heracross(2 Attack), Sableye(1 Attack + 1 Defense), Mawile(1 Attack + 1 Defense)
     40 ->	30, 31, 20, 22, 13, 38 # Audino(2 HP), Manectric(2 Speed), Noctowl(2 HP), Diggersby(2 HP)
     41 ->	34, 31, 20, 22, 13, 40 # Diggersby(2 HP), Noctowl(2 HP), Tyrantrum(2 Attack), Aerodactyl(2 Speed)
-    42 ->	34, 31, 20, 22, 13, 40 # Diggersby(2 HP), Golurk(2 Attack), 
+    42 ->	38, 33, 20, 22, 13, 44 # Diggersby(2 HP), Golurk(2 Attack), Aipom(1 Speed), Aipom(1 Speed), Loudred(2 HP), Lopunny(2 Speed)
+    43 ->	38, 35, 23, 23, 16, 46 # Numel(1 SpAttack), Skarmory(2 Defense), Pidgeotto(2 Speed), Carnivine(2 Attack), Wormadam(2 SpDef), Wormadam(1 SpDef + 1 Defense)
+    44 ->	38, 39, 28, 23, 16, 47 # Wormadam(2 Defense), Anorith(1 Attack), Dwebble(1 Defense), Forretress(2 Defense), Yanma(1 Speed), Yanmega(2 Attack), Scyther(1 Attack)
+    45 ->	38, 43, 29, 24, 18, 47 # Pinsir(2 Attack), Shuckle(1 Defense + 1 SpDef), Masquerain(1 SpAttack +  1 SpDef), Scizor(2 Attack)
+    46 ->	38, 43, 29, 24, 18, 47 # 
 :::
 
 ## Pokémon Gaia Any% Route
@@ -1621,7 +1625,7 @@ Go back towards Harbor
 - Teach Surf to zigzagoon/bidoof
 - Surf towards left side near the Harbor
 
-Go through all the area(all trainers are optional)
+Go through all the area(Skipping all optional trainers)
 
 :::::trainer[Pokemaniac Eric]
   :::pokemon[Aipom]
@@ -1649,28 +1653,21 @@ Go up
 Surf right
 - then go down
 
+Before fighting the trianer Surf right and Grab this Rare Candy
+
 :::::trainer[Ace Trainer Colton]
   :::pokemon[Numel]
     - Rock Smash
   :::
   :::pokemon[Skarmory]
     - Close Combat
-    :::if{source="Chimchar" condition="atk=(28-29 / x / x)"}
-    - 37.5% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 18-19 / x)"}
+    - 81.3% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(30-31 / x / x)"}
-    - 50% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
-    - 62.5% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 15-19 / x)"}
-    - 75% to OHKO
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 20-24 / 0-3)"}
+    :::if{source="Chimchar" condition="atk=(x / 20-22 / x)"}
     - 87.5% to OHKO
     :::
-    :::if{source="Chimchar" condition="atk=(x / 25-31 / 4-31)"}
+    :::if{source="Chimchar" condition="atk=(x / 23-31 / 1-31)"}
     - 100% to OHKO
     :::
   :::
@@ -1729,10 +1726,49 @@ Step on the Hexagon
 
 :::::trainer[Picknicker Ruby]
   :::pokemon[Forretress]
-    - Rock Smash
+    - Rock Smash(Flame Wheel is slower due to super effective text and he always survive that too due to sturdy)
     ::damage[Forretress's Explosion]{source="Chimchar" offensive=false movePower=250 level=43 evolution=2 opponentLevel=31 opponentStat=70 special=false stab=false type=normal}
 :::::
 
 Step on the Hexagon
 
 Talk to the Ace Trainer
+
+:::::trainer[Ace Trainer Keigo]
+  :::pokemon[Yanma]
+    - Flame Wheel
+  :::
+  :::pokemon[Yanmega]
+    - Flame Wheel
+  :::
+:::::
+
+Step on the Hexagon
+
+Talk to the Bug Catcher
+
+:::::trainer[Bug Catcher Cale]
+  :::pokemon[Scyther]
+    - Flame Wheel
+  :::
+  :::pokemon[Pinsir]
+    - Flame Wheel
+  :::
+:::::
+
+:::::trainer[Leader Vernon]
+  :::pokemon[Shuckle]
+    - Flame Wheel* x2 or Close Combat + Flame Wheel/Close Combat
+    - Use CC a second time too if he Withdraws
+    - Flame Wheel* + CC always kill unless in heal range
+  :::
+  :::pokemon[Masquerain]
+    - Flame Wheel
+  :::
+  :::pokemon[Beedrill]
+    - Flame Wheel
+  :::
+  :::pokemon[Scizor]
+    - Flame Wheel
+  :::
+:::::
