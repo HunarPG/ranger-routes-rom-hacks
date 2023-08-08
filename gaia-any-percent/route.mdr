@@ -26,7 +26,17 @@
     29 ->	17, 15, 11, 8, 6, 13 # Ponyta(1 Speed), Ponyta(1 Speed), Pansear(1 Speed)
     30 ->	17, 15, 11, 9, 6, 20 # Charmeleon(1 SpAttack + 1 Speed), Staravia(2 Speed), Swellow(2 Speed), Pidgeotto(2 Speed)
     31 ->	17, 16, 14, 10, 6, 21 # Xatu(1 spatk + 1 Speed), Boldore(1 Attack + 1 Defense), Nosepass(1 Defense), Bronzor(1 Defense)
-    32 ->	17, 16, 14, 10, 6, 21 # 
+    32 ->	18, 17, 18, 10, 6, 21 # Graveler(2 Defense), Relicanth(1 HP + 1 Defense), Kabuto(1 Defense), Cranidos(1 Attack)
+    33 ->	20, 17, 18, 12, 6, 24 # Noctowl(2 HP), Numel(1 SpAttack), Numel(1 SpAttack), Pansear(1 Speed), Simisear(2 Speed)
+    34 ->	20, 18, 18, 15, 6, 25 # Litleo(1 spatk), Monferno(1 SpAttack + 1 Speed), Pignite(2 Attack), Camerupt(1 Attack + 1 SpAttack)
+    35 ->	22, 18, 18, 20, 8, 25 # Magmar(3 SpAttack), Heatmor(2 SpAttack), Mantine(2 SpDef), Glameow(1 Speed), Diggersby(2 HP)
+    36 ->	23, 21, 18, 20, 8, 28 # Teddiursa(1 Attack), Herdier(2 Attack), Skiddo(1 HP), Jumpluff(3 Speed)
+    37 ->	23, 22, 18, 22, 10, 32 # Wormadam(2 SpDef), Grovyle(2 Speed), Litleo(1 SpAttack), Numel(1 SpAttack), Fletchinder(2 Speed), Larvesta(1 Attack)
+    38 ->	24, 24, 18, 22, 13, 36 # Barboach(1 HP), Basculin(2 Speed), Basculin(2 Speed), Mantine(2 SpDef), Goomy(1 SpDef), Gabite(2 Attack)
+    39 ->	24, 31, 20, 22, 13, 36 # Dragonair(2 Attack), Tyrunt(1 Attack), Heracross(2 Attack), Sableye(1 Attack + 1 Defense), Mawile(1 Attack + 1 Defense)
+    40 ->	30, 31, 20, 22, 13, 38 # Audino(2 HP), Manectric(2 Speed), Noctowl(2 HP), Diggersby(2 HP)
+    41 ->	34, 31, 20, 22, 13, 40 # Diggersby(2 HP), Noctowl(2 HP), Tyrantrum(2 Attack), Aerodactyl(2 Speed)
+    42 ->	34, 31, 20, 22, 13, 40 # Diggersby(2 HP), Golurk(2 Attack), 
 :::
 
 ## Pokémon Gaia Any% Route
@@ -1076,11 +1086,24 @@ Go up get your team healed
 
 :::::trainer[New Elders Grunt 3]
   :::pokemon[Graveler]
-    - Mach Punch x2
+    - Rock Smash(+Mach Punch)
+    - Mach Punch x2 if low chance of Rock Smash to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 18-20 / 1-4)"}
+    - 0% to OHKO
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 21-31 / 5-17)"}
+    - 6.3% to OHKO
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 18-23)"}
+    - 31.3% to OHKO
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 24-31)"}
+    - 62.5% to OHKO
+    ::: 
     ::damage[Graveler's Bulldoze]{source="Chimchar" offensive=false movePower=60 level=31 evolution=1 opponentLevel=23 opponentStat=40 special=false stab=true type=ground}
   :::
   :::pokemon[Relicanth]
-    - Rock Smash x2-3
+    - Rock Smash x2
     ::damage[Relicanth's AncientPower]{source="Chimchar" offensive=false movePower=60 level=31 evolution=1 opponentLevel=21 opponentStat=46 special=false stab=true type=rock}
     ::damage[Relicanth's Water Gun]{source="Chimchar" offensive=false movePower=40 level=31 evolution=1 opponentLevel=25 opponentStat=23 special=true stab=true type=Water}
   :::
@@ -1102,8 +1125,38 @@ Go from left side
 :::::trainer[New Elders Grunt 5]
   :::pokemon[Noctowl]
     - Flame Wheel*(x2)
-    ::damage[Noctowl's Peck]{source="Chimchar" offensive=false movePower=35 level=27 evolution=1 opponentLevel=24 opponentStat=29 special=false stab=true type=flying}
-    ::damage[Noctowl's Confusion]{source="Chimchar" offensive=false movePower=50 level=27 evolution=1 opponentLevel=24 opponentStat=46 special=true stab=false type=Psychic}
+    :::if{source="Chimchar" condition="atk=(x / 18 / 1-2)"}
+    - 0% to OHKO in Blaze
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 19-21 / 3-5)"}
+    - 6.3% to OHKO in Blaze
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 22-24 / 6-8)"}
+    - 12.5% to OHKO in Blaze
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 25-30 / 9-11)"}
+    - 25% to OHKO in Blaze
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 31 / 12-14)"}
+    - 43.8% to OHKO in Blaze
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 15-21)"}
+    - 50% to OHKO in Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 22-24)"}
+    - 62.5% to OHKO in Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 25-27)"}
+    - 68.8% to OHKO in Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 28-30)"}
+    - 75% to OHKO in Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 31)"}
+    - 87.5% to OHKO in Blaze
+    :::
+    ::damage[Noctowl's Peck]{source="Chimchar" offensive=false movePower=35 level=32 evolution=1 opponentLevel=24 opponentStat=29 special=false stab=true type=flying}
+    ::damage[Noctowl's Confusion]{source="Chimchar" offensive=false movePower=50 level=32 evolution=1 opponentLevel=24 opponentStat=46 special=true stab=false type=Psychic}
   :::
 :::::
 
@@ -1115,99 +1168,185 @@ Talk to the Elder Knight
 :::::trainer[Kindler Hector]
   :::pokemon[Numel]
     - Rock Smash(+Mach Punch)
+    :::if{source="Chimchar" condition="atk=(x / 18-21 / 1-5)"}
+    - 18.8% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 22-24 / 6-8)"}
+    - 31.3% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 25-27 / 9-11)"}
+    - 43.8% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 28-31 / 12-14)"}
+    - 56.3% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 28-31 / 15-18)"}
+    - 56.3% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 19-24)"}
+    - 81.3% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 25-27)"}
+    - 93.8% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 28-31)"}
+    - 100% to OHKO with Rock Smash
+    :::
   :::
   :::pokemon[Numel]
     - Rock Smash(+Mach Punch)
+    :::if{source="Chimchar" condition="atk=(x / 18-27 / 1-11)"}
+    - 0% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 28-30 / x)"}
+    - 6.3% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 31 / 12-18)"}
+    - 18.8% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 19-21)"}
+    - 31.3% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 22-27)"}
+    - 43.8% to OHKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 28-31)"}
+    - 56.3% to OHKO with Rock Smash
+    :::
   :::
 :::::
 
 :::::trainer[Kindler Barry]
   :::pokemon[Pansear]
-    - Rock Tomb
+    - Rock Tomb/Rock Smash
+    - Rock Tomb is 100% to OHKO
+    :::if{source="Chimchar" condition="atk=(x / 18-21 / 1-5)"}
+    - 6.3% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 22-27 / 6-11)"}
+    - 18.8% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 28-31 / 12-14)"}
+    - 43.8% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 15-21)"}
+    - 62.5% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 22-27)"}
+    - 75% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 28-30)"}
+    - 87.5% to OHKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / x / 31)"}
+    - 93.8% to OHKO with Rock Smash
+    ::: 
   :::
-  :::pokemon[Numel]
-    - Rock Tomb(+ Mach Punch)/Rock Smash x2
+  :::pokemon[Simisear]
+    - Rock Smash x2
+    - Rock Tomb + Rock Smash always kills
+    :::if{source="Chimchar" condition="atk=(x / 18-24 / 1-8)"}
+    - 93.8% to 2HKO with Rock Smash
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 25-31 / 9-31)"}
+    - 100% to 2HKO with Rock Smash
+    ::: 
   :::
 :::::
 
 :::::trainer[Kindler Amit]
   :::pokemon[Litleo]
-    - Rock Smash/Mach Punch
-    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 62.5% to OHKO with Mach Punch
-    :::
-    :::if{source="Chimchar" condition="atk=(29-31 / 13 / x)"}
-    - 81.3% to OHKO with Mach Punch
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 14-31 / 0-31)"}
-    - 100% to OHKO with Mach Punch
-    :::
+    - Mach Punch
   :::
   :::pokemon[Monferno]
     - Mach Punch x2
+    :::if{source="Chimchar" condition="atk=(x / 18 / 1-3)"}
+    - 97.3% to 2HKO with Mach Punch
+    ::: 
+    :::if{source="Chimchar" condition="atk=(x / 19-31 / 4-31)"}
+    - 100% to 2HKO with Mach Punch
+    ::: 
   :::
 :::::
 
-**All Rock Smash ranges in the next Battles are only correct if you don't get the defense drop f you do the ranges are 100%**
+**All Rock Smash ranges in the next Battles are only correct if you don't get the defense drop if you do the ranges are 100%**
 
 **Also it's really hard do die in the next fight unless you you get a High Power Magnitude from Camerupt**
 
 :::::trainer[Leader Nina]
   :::pokemon[Pignite]
     - Rock Smash x2-3
-    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 5.1% to OHKO with Rock Smash
+    - You are always faster after a Flame Charge Speed Boost
+    :::if{source="Chimchar" condition="atk=(x / 18 / 1-3)"}
+    - 57.8% to 2HKO with Rock Smash
     :::
-    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
-    - 35.5% to OHKO with Rock Smash
+    :::if{source="Chimchar" condition="atk=(x / 19-21 / 4-6)"}
+    - 82.4% to 2HKO with Rock Smash
     :::
-    :::if{source="Chimchar" condition="atk=(x / 13-19 / 0-4)"}
-    - 59% to OHKO with Rock Smash
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 20-25 / 5-7)"}
-    - 90.2% to OHKO with Rock Smash
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-14)"}
-    - 98% to OHKO with Rock Smash
-    :::
-    :::if{source="Chimchar" condition="atk=(x / x / 14-31)"}
-    - 100% to OHKO with Rock Smash
+    :::if{source="Chimchar" condition="atk=(x / 22-31 / 7-31)"}
+    - 100% to 2HKO with Rock Smash
     :::
   :::
   :::pokemon[Camerupt]
     - Rock Smash (+Flame Wheel) + Rock Smash
-    ::damage[Camerupt's Rock Slide]{source="Chimchar" offensive=false movePower=75 level=3 evolution=1 opponentLevel=28 opponentStat=64 special=false stab=false type=rock}
+    - Flame Wheel if no Defense drop
+    - You are always faster after a Flame Charge Speed Boost
+    :::if{source="Chimchar" condition="atk=(x / 18-21 / 1-6)"}
+    - 0% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 22-30 / 7-12)"}
+    - 0.4% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 13-18)"}
+    - 9.4% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 19-27)"}
+    - 34% to 2HKO with Rock Smash
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 28-31)"}
+    - 69.9% to 2HKO with Rock Smash
+    :::
+    ::damage[Camerupt's Rock Slide]{source="Chimchar" offensive=false movePower=75 level=33 evolution=1 opponentLevel=28 opponentStat=64 special=false stab=false type=rock}
   :::
   :::pokemon[Magmar]
-    - Rock Tomb(+Mach Punch)
-    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 0% to OHKO 
+    - Rock Tomb(+Rock Tomb as she will heal)   
+    :::if{source="Chimchar" condition="atk=(x / x / 1)"}
+    - 18.8% to OHKO 
     :::
-    :::if{source="Chimchar" condition="atk=(29-31 / 13 / x)"}
-    - 12.5% to OHKO 
+    :::if{source="Chimchar" condition="atk=(x / 18-22 / 2-4)"}
+    - 37.5% to OHKO 
     :::
-    :::if{source="Chimchar" condition="atk=(x / 14-19 / 0-1)"}
-    - 31.3% to OHKO 
+    :::if{source="Chimchar" condition="atk=(x / 23-28 / 5-10)"}
+    - 50% to OHKO 
     :::
-    :::if{source="Chimchar" condition="atk=(x / 20-25 / 2-7)"}
-    - 43.8% to OHKO 
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-13)"}
-    - 56.3% to OHKO 
-    :::
-    :::if{source="Chimchar" condition="atk=(x / x / 14-16)"}
-    - 75% to OHKO 
+    :::if{source="Chimchar" condition="atk=(x / 29-31 / 11-16)"}
+    - 68.8% to OHKO 
     :::
     :::if{source="Chimchar" condition="atk=(x / x / 17-22)"}
-    - 87.5% to OHKO 
+    - 81.3% to OHKO 
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 23-31)"}
+    :::if{source="Chimchar" condition="atk=(x / x / 23-28)"}
+    - 93.8.8% to OHKO 
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 29-31)"}
     - 100% to OHKO 
     :::
   :::
   :::pokemon[Heatmor]
     - Rock Smash + Rock Smash/Rock Tomb
-    - Use Rock Tomb turn 2 if no Defense drop
+    - Use Rock Tomb turn 2 if no Defense drop unless very likely to kill
+    :::if{source="Chimchar" condition="atk=(x / 18-19 / 1)"}
+    - 52% to 2HKO with Rock Smash without Defense drop
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 20-25 / 2-7)"}
+    - 78.9% to 2HKO with Rock Smash without Defense drop
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 8-16)"}
+    - 96.5% to 2HKO with Rock Smash without Defense drop
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 17-31)"}
+    - 100% to 2HKO with Rock Smash without Defense drop
+    :::
   :::
 :::::
 
@@ -1219,9 +1358,9 @@ Go up to the Mart
 Buy:-
 - 2 Ultra Balls
 - 3 Hyper Potions
-- 1 Revive
+- 3 Revive
 - 1 Escape Rope
-- Max(10) Max Repels
+- Max(11) Max Repels
 
 Go the the Bike Shop and get the Bike
 - Register the Bike 
@@ -1232,8 +1371,8 @@ Say yes to the Sailor
 
 :::::trainer[Sailor Braveton]
   :::pokemon[Mantine]
-    - Rock Tomb + Flame Wheel
-  ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 opponentLevel=25 opponentStat=48 special=true stab=true type=Water}
+  - Rock Tomb + Mach Punch
+  ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 opponentLevel=25 opponentStat=52 special=true stab=true type=Water}
   ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=34 evolution=1 opponentLevel=25 opponentStat=28 special=false stab=true type=flying}
   :::
 :::::
@@ -1248,48 +1387,34 @@ Get on Bike and head to Sabulo Tower
   :::
   :::pokemon[Diggersby]
     - Rock Smash + Mach Punch
-  ::damage[Diggersby's Mud Shot]{source="Chimchar" offensive=false movePower=55 level=34 evolution=1 opponentLevel=29 opponentStat=42 special=false stab=true type=ground}
+  ::damage[Diggersby's Mud Shot]{source="Chimchar" offensive=false movePower=55 level=34 evolution=1 opponentLevel=29 opponentStat=32 special=true stab=true type=ground}
   :::
   :::pokemon[Teddiursa]
     - Mach Punch/Flame Wheel
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 37.5% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 13-14 / x)"}
-    - 43.8% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 15-19 / 0-2)"}
-    - 56.3% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 18-19 / 1-2)"}
+    - 62.5% to OHKO with Flame Wheel without Blaze
     :::
     :::if{source="Chimchar" condition="atk=(x / 20-22 / 3-5)"}
-    - 68.8% to OHKO with Flame Wheel
+    - 75% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 6-8)"}
-    - 81.3% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 23-28 / 6-11)"}
+    - 81.3% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 23-28 / 9-11)"}
-    - 87.5% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 29-31 / 12-14)"}
+    - 93.8% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x /29-31 / 12-31)"}
-    - 100% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x /29-31 / 15-31)"}
+    - 100% to OHKO with Flame Wheel without Blaze
     :::
   :::pokemon[Herdier]
-    - Flame Wheel x2/ Mach Punch x2
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 60.2% to 2HKO with Flame Wheel
+    - Flame Wheel x2
+    :::if{source="Chimchar" condition="atk=(x / 18-19 / 1-2)"}
+    - 87.9% to 2HKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 13-19 / x)"}
-    - 90.2% to 2HKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 20-31 / 3-31)"}
+    - 100% to 2HKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 0-2)"}
-    - 92.2% to 2HKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 20-22 / 3-5)"}
-    - 98.4% to 2HKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 23-31 / 6-31)"}
-    - 100% to 2HKO with Flame Wheel
-    :::
+  ::damage[Herdier's Take Down]{source="Chimchar" offensive=false movePower=90 level=35 evolution=1 opponentLevel=27 opponentStat=50 special=false stab=true type=normal}
   :::
 :::::
 
@@ -1306,7 +1431,7 @@ Get on Bike and head to Sabulo Tower
   :::
   :::pokemon[Grovyle]
     - Flame Wheel
-  ::damage[Grovyle's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=36 evolution=1 opponentLevel=29 opponentStat=44 special=false stab=false type=normal}
+  ::damage[Grovyle's Quick Attack]{source="Chimchar" offensive=false movePower=40 level=36 evolution=1 opponentLevel=29 opponentStat=48 special=false stab=false type=normal}
   :::
 :::::
 
@@ -1328,6 +1453,7 @@ Do not acccidently cance the evolution
 :::::
 
 Heal before the next fight
+- Also use Ether on Rock Smash
 
 :::::trainer[Ace Trainer Mikel]
   :::pokemon[Barboach]
@@ -1338,19 +1464,16 @@ Heal before the next fight
   :::
   :::pokemon[Basculin]
     - Close Combat
-  ::damage[Grovyle's Aqua Jet]{source="Chimchar" offensive=false movePower=40 level=37 evolution=2 combatStages=-1 opponentLevel=27 opponentStat=56 special=false stab=true type=Water}
+  ::damage[Basculin's Aqua Jet]{source="Chimchar" offensive=false movePower=40 level=37 evolution=2 combatStages=-1 opponentLevel=29 opponentStat=60 special=false stab=true type=Water}
   :::
   :::pokemon[Mantine]
     - Rock Tomb
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 87.5% to OHKO
-    :::
-  ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=37 evolution=2 opponentLevel=27 opponentStat=50 special=true stab=true type=Water}
-  ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=37 evolution=2 opponentLevel=27 opponentStat=28 special=false stab=true type=flying}
+  ::damage[Mantine's Water Pulse]{source="Chimchar" offensive=false movePower=60 level=37 evolution=2 combatStages=-2 opponentLevel=27 opponentStat=50 special=true stab=true type=Water}
+  ::damage[Mantine's Wing Attack]{source="Chimchar" offensive=false movePower=60 level=37 evolution=2 combatStages=-2 opponentLevel=27 opponentStat=28 special=false stab=true type=flying}
   :::
 :::::
 
-:::::trainer[Expert Agam]
+:::::trainer[Expert Agem]
   :::pokemon[Goomy]
     - Rock Smash
   :::
@@ -1371,32 +1494,29 @@ Heal before the next fight
   :::
   :::pokemon[Sableye]
     - Flame Wheel(x2)
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 0% to OHKO without Blaze
+    :::if{source="Chimchar" condition="atk=(x / 18-22 / 1)"}
+    - 31.3% to OHKO without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 13-17 / x)"}
-    - 6.3% to OHKO without Blaze
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 18-25 / 0-4)"}
-    - 18.8% to OHKO without Blaze
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 26-30 / 5-9)"}
+    :::if{source="Chimchar" condition="atk=(x / 23-28 / 2-7)"}
     - 37.5% to OHKO without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 31 / 10-14)"}
+    :::if{source="Chimchar" condition="atk=(x / 29-31 / 8-9)"}
     - 50% to OHKO without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 31 / 10-14)"}
-    - 50% to OHKO without Blaze
+    :::if{source="Chimchar" condition="atk=(x / x / 10-14)"}
+    - 62.5% to OHKO without Blaze
     :::
     :::if{source="Chimchar" condition="atk=(x / x / 15-20)"}
-    - 68.8% to OHKO without Blaze
+    - 75% to OHKO without Blaze
     :::
     :::if{source="Chimchar" condition="atk=(x / x / 21-25)"}
-    - 8.3% to OHKO without Blaze
+    - 81.3% to OHKO without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / x / 26-31)"}
+    :::if{source="Chimchar" condition="atk=(x / x / 26-28)"}
     - 93.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 29-31)"}
+    - 100% to OHKO without Blaze
     :::
   ::damage[Sableye's Shadow Sneak]{source="Chimchar" offensive=false movePower=40 level=38 evolution=2 opponentLevel=30 opponentStat=52 special=false stab=true type=ghost}
   ::damage[Sableye's Fake out]{source="Chimchar" offensive=false movePower=40 level=38 evolution=2 opponentLevel=30 opponentStat=52 special=false stab=true type=normal}
@@ -1406,28 +1526,31 @@ Heal before the next fight
   :::
   :::pokemon[Audino]
     - Flame Wheel x3-4
-    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 0% to 3HKO without Blaze
+    :::if{source="Chimchar" condition="atk=(x/ 18-20 / x)"}
+    - 99.8% to 3HKO without Blaze(assuming no Baby-Doll-Eyes)
     :::
-    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
-    - 1.9% to 3HKO without Blaze
+    :::if{source="Chimchar" condition="atk=(x/ 21-31 / 1-31)"}
+    - 100% to 3HKO without Blaze(assuming no Baby-Doll-Eyes)
     :::
-    :::if{source="Chimchar" condition="atk=(x/ 13-18 / x)"}
-    - 35.2% to 3HKO without Blaze
-    :::
-    :::if{source="Chimchar" condition="atk=(x/ 19-28 / 0-5)"}
-    - 62.6% to 3HKO without Blaze
-    :::
-    :::if{source="Chimchar" condition="atk=(x/ 29-31 / 6-13)"}
-    - 97.8% to 3HKO without Blaze
-    :::
-    :::if{source="Chimchar" condition="atk=(x/ x / 14-31)"}
-    - 100% to 3HKO without Blaze
-    :::
-    ::damage[Audino's Charming Cry]{source="Chimchar" offensive=false movePower=40 level=39 evolution=2 opponentLevel=32 opponentStat=66 special=true stab=true type=normal}
+    ::damage[Audino's Charming Cry]{source="Chimchar" offensive=false movePower=40 level=39 evolution=2 opponentLevel=32 opponentStat=54 special=true stab=true type=normal}
   :::
   :::pokemon[Manectric]
     - Close Combat/Flame Wheel*
+    :::if{source="Chimchar" condition="atk=(x/ 18 / x)"}
+    - 56.3% to OHKO with Flame Wheel* at -1
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ 19-26 / 1-2)"}
+    - 62.5% to OHKO with Flame Wheel* at -1
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ 27-31 / 3-8)"}
+    - 81.3% to OHKO with Flame Wheel* at -1
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ x / 9-15)"}
+    - 87.5% to OHKO with Flame Wheel* at -1
+    :::
+    :::if{source="Chimchar" condition="atk=(x/ x / 16-31)"}
+    - 100% to OHKO with Flame Wheel* at -1
+    :::
   :::
 :::::
 
@@ -1438,29 +1561,23 @@ Bike towards the Regirock
 :::::trainer[New Elders Grunt 1]
   :::pokemon[Noctowl]
     - Flame Wheel/Rock Tomb
-    :::if{source="Chimchar" condition="atk=(28 / x / x)"}
-    - 31.3% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 18 / x)"}
+    - 62.5% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(29-31 / x / x)"}
-    - 37.5% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 19-23 / 1-2)"}
+    - 75% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 13 / x)"}
-    - 50% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 24-26 / x)"}
+    - 81.3% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 14-18 / x)"}
-    - 62.5% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 27-31 / 3-8)"}
+    - 87.5% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 19-20 / 0)"}
-    - 68.8% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / x / 9-10)"}
+    - 93.8% to OHKO with Flame Wheel without Blaze
     :::
-    :::if{source="Chimchar" condition="atk=(x / 21-28 / 1-5)"}
-    - 81.3% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 29-31 / 6-8)"}
-    - 93.8% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / x / 9-31)"}
-    - 100% to OHKO with Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / x / 11-31)"}
+    - 100% to OHKO with Flame Wheel without Blaze
     :::
   :::
   :::pokemon[Diggersby]
@@ -1473,13 +1590,7 @@ Bike towards the Regirock
     - Rock Smash
   :::
   :::pokemon[Noctowl]
-    - Flame Wheel/Rock Tomb
-    :::if{source="Chimchar" condition="atk=(28-31 / x / x)"}
-    - 81.3% to OHKO with Flame Wheel
-    :::
-    :::if{source="Chimchar" condition="atk=(x / 13- / 0-31)"}
-    - 100% to OHKO with Flame Wheel
-    :::
+    - Flame Wheel
   :::
 :::::
 
@@ -1493,7 +1604,7 @@ Bike towards the Regirock
   :::pokemon[Diggersby]
     - Rock Smash
   :::
-  :::pokemon[Golruk]
+  :::pokemon[Golurk]
     - Flame Wheel x2
     - You can die if he gets Magnitude7+
   :::
