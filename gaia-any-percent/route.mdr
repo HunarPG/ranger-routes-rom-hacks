@@ -40,7 +40,13 @@
     43 ->	38, 35, 23, 23, 16, 46 # Numel(1 SpAttack), Skarmory(2 Defense), Pidgeotto(2 Speed), Carnivine(2 Attack), Wormadam(2 SpDef), Wormadam(1 SpDef + 1 Defense)
     44 ->	38, 39, 28, 23, 16, 47 # Wormadam(2 Defense), Anorith(1 Attack), Dwebble(1 Defense), Forretress(2 Defense), Yanma(1 Speed), Yanmega(2 Attack), Scyther(1 Attack)
     45 ->	38, 43, 29, 24, 18, 47 # Pinsir(2 Attack), Shuckle(1 Defense + 1 SpDef), Masquerain(1 SpAttack +  1 SpDef), Scizor(2 Attack)
-    46 ->	38, 43, 29, 24, 18, 47 # 
+    46 ->	40, 45, 30, 29, 18, 49 # Ferroseed(1 Defense), Arbok(2 Attack), Emolga(2 Speed), Maractus(2 SpAttack), Hariyama(2 HP), Empoleon(3 SpAttack)
+    47 ->	40, 48, 33, 30, 20, 50 # Altaria(2 SpDef), Leafeon(2 Defense), Boldore(1 Attack + 1 Defense), Rotom(1 Speed + 1 SpAttack), Arbok(2 Attack)
+    48 ->	40, 54, 35, 30, 20, 50 # Mightyena(2 Attack), Mightyena(2 Attack), Mightyena(2 Attack), Lairon(2 Defense)
+    49 ->	42, 60, 35, 30, 20, 50 # Bouffalant(2 Attack), Mightyena(2 Attack), Garbodor(2 Attack), Skuntank(2 HP)
+    50 ->	42, 66, 35, 34, 20, 50 # Vileplume(3 SpAttack), Seviper(1 Attack + 1 SpAttack), Weepinbell(2 Attack), Victrebeel(3 Attack)
+    51 ->	43, 75, 35, 34, 20, 50 # Ariados(2 Attack), Qwilfish(1 Attack), Muk(1 HP + 1 Attack), Arbok(2 Attack), Nidoking(3 Attack)
+    52 ->	43, 75, 37, 36, 21, 54 # Drapion(2 Defense), Venusaur(2 SpAttack + 1 SpDef), Golbat(2 Speed), Swoobat(2 Speed)
 :::
 
 ## Pokémon Gaia Any% Route
@@ -1006,6 +1012,7 @@ Go up towards Pokemon center and enter the house right of pokemon center
 
 Sell:-
 - 2 Nugget
+
 Buy:-
 - 21 Fresh Water
 - 21 Lava Cookie
@@ -1772,5 +1779,314 @@ Talk to the Bug Catcher
   :::
   :::pokemon[Scizor]
     - Flame Wheel
+  :::
+:::::
+
+Leave the gym and head East
+
+:::::trainer[Ranger Elijah]
+  :::pokemon[Ferroseed]
+    - Rock Smash
+  :::
+  :::pokemon[Arbok]
+    - Flame Wheel(x2)
+    - Flame Wheel* always kills
+    :::if{source="Chimchar" condition="atk=(x / 18-23 / 1)"}
+    - 25% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 24-25 / 2-3)"}
+    - 37.5% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 26-31 / 4-10)"}
+    - 43.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 11-12)"}
+    - 56.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 13-18)"}
+    - 68.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 19-21)"}
+    - 75% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 22-25)"}
+    - 81.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 26-27)"}
+    - 93.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 28-31)"}
+    - 100% to OHKO without Blaze
+    :::
+  :::
+:::::
+
+Don't repel unless you catch Wooper for HM's on Water
+- Fist go down through the water to get this Lucky Egg and then go from up side
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1138651164112592927/pokemon_gaia_v3.2-0.png)
+
+Avoid all the optional trainers
+
+before going down in the next surfing section go up near the cut bush
+- Teach cut to Surf Slave/Ivysaur and then grab this Rare Candy(Can teach cut on repel menu if got Wooper)
+
+:::::trainer[Ranger Felicia]
+  :::pokemon[Emolga]
+    - Flame Wheel
+  :::
+  :::pokemon[Maractus]
+    - Flame Wheel
+  :::
+:::::
+
+
+Go left of the 2 rangers standing and grab choice specs from this Girl
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1138652902425108540/pokemon_gaia_v3.2-1.png)
+
+:::::trainer[Rival 3]
+  :::pokemon[Hariyama]
+    - Close Combat
+  :::
+  :::pokemon[Empoleon]
+    - Rock Smash/Close Combat
+    :::if{source="Chimchar" condition="atk=(x / 18-24 / 1)"}
+    - Rock Smash is 37.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 25-28 / 2-6)"}
+    - Rock Smash is 50% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 29-31 / 7-13)"}
+    - Rock Smash is 62.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 14-19)"}
+    - Rock Smash is 75% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 20-24)"}
+    - Rock Smash is 87.5% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 25-31)"}
+    - Rock Smash is 100% to OHKO
+    :::
+  :::
+  :::pokemon[Altaria]
+    - Flame Wheel + Rock Tomb(always goes for Dragon Dance and you are always faster at +1 and +2)
+  :::
+  :::pokemon[Boldore]
+    - Rock Smash x2
+    ::damage[Boldore's Rock Slide(After 1 CC)]{source="Chimchar" offensive=false movePower=75 level=46 evolution=2 opponentLevel=34 opponentStat=70 combatStages=-1 special=false stab=true type=rock}
+    ::damage[Boldore's Rock Slide(After 2 CC)]{source="Chimchar" offensive=false movePower=75 level=46 evolution=2 opponentLevel=34 opponentStat=70 combatStages=-2 special=false stab=true type=rock}
+  :::
+  :::pokemon[Leafeon]
+    - Flame Wheel
+  :::
+  :::pokemon[Rotom]
+    - Flame Wheel
+    :::if{source="Chimchar" condition="atk=(x / 18-22 / x)"}
+    - 93.8% to OHKO
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 23-31 / 1-31)"}
+    - 100% to OHKO
+    :::
+  :::
+:::::
+
+Go right in the city
+- Then leave from the north exit
+
+Avoiding all trainers grab this Flame Thrower TM 
+
+![](https://cdn.discordapp.com/attachments/917309676717244436/1138715160563953774/pokemon_gaia_v3.2-0.png)
+
+Go back to the city
+- Give Lucky Egg and Teach FlameThrower over Rock Tomb
+
+Go inside the first house after coming back to the town
+
+:::::trainer[Mightyena Thug Chad]
+  :::pokemon[Arbok]
+    - FlameThrower
+  :::
+  :::pokemon[Mightyena]
+    - Flame Wheel
+  :::
+:::::
+
+:::::trainer[Mightyena Thug Mikey]
+  :::pokemon[Mightyena]
+    - Close Combat
+  :::
+:::::
+
+:::::trainer[Mightyena Thug Mitch]
+  :::pokemon[Mightyena]
+    - Close Combat
+  :::
+:::::
+
+:::::trainer[Mightyena Boss Akuto]
+  :::pokemon[Lairon]
+    - Flame Wheel + FlameThrower
+  :::
+  :::pokemon[Bouffalant]
+    - Flame Wheel + Rock Smash
+    - Try to take a hit so you get in Blaze easily
+  :::
+  :::pokemon[Mightyena]
+    - Flame Wheel + FlameThrower
+    - Can try to OHKO with FlameThrower but it's a roll and you want damage
+  :::
+:::::
+
+Head to the gym
+
+:::::trainer[Ninja Boy Jorah]
+  :::pokemon[Garbodor]
+    - FlameThrower*
+    - if you are out of blaze just Flame Wheel + FlameThrower it should put you in Blaze
+  :::
+  :::pokemon[Skuntank]
+    - FlameThrower
+  :::
+:::::
+
+After Surfing go up avoid the Spinner Black Belt and fight the Biker
+
+:::::trainer[Ninja Norbert]
+  :::pokemon[Vileplume]
+    - Flame Wheel
+  :::
+  :::pokemon[Seviper]
+    - Flame Wheel*/FlameThrower
+  :::
+:::::
+
+:::::trainer[Ace Trainer Marcin]
+  :::pokemon[Weepinbell]
+    - Flame Wheel
+  :::
+  :::pokemon[Victrebeel]
+    - Flame Wheel
+  :::
+:::::
+
+Surf right then up 
+
+:::::trainer[Ninja Boy Jesse]
+  :::pokemon[Ariados]
+    - Flame Wheel
+  :::
+  :::pokemon[Qwilfish]
+    - FlameThrower*
+    - Flame Wheel + FlameThrower if not in Blaze of will be out of Blaze soon
+  :::
+:::::
+
+Go Back doewn avoid Black Belt again
+- Give Infernape Choice Specs over Lucky Egg
+
+:::::trainer[Ace Trainer Ava]
+  :::pokemon[Muk]
+    - FlameThrower*(x2)
+    :::if{source="Chimchar" condition="spatk=(x / 18-21 / x)"}
+    - 43.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 22-23 / 1)"}
+    - 50% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 24-25 / 2-3)"}
+    - 56.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 26-29 / 4-7)"}
+    - 62.5% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / 30-31 / 8-11)"}
+    - 68.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 12-13)"}
+    - 75% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 14-15)"}
+    - 81.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 16-17)"}
+    - 87.5% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 18-21)"}
+    - 93.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="spatk=(x / x / 22-31)"}
+    - 100% to OHKO without Blaze
+    :::
+    ::damage[Muk's Sludge Wave]{source="Chimchar" offensive=false movePower=95 level=50 evolution=2 opponentLevel=40 opponentStat=58 special=true stab=true type=poison}
+    ::damage[Muk's Mud Bomb]{source="Chimchar" offensive=false movePower=65 level=50 evolution=2 opponentLevel=40 opponentStat=58 special=true stab=false type=ground}
+  :::
+:::::
+
+:::::trainer[Leader Sid]
+  :::pokemon[Arbok]
+    - FlameThrower
+  :::
+  :::pokemon[Nidoking]
+    - FlameThrower
+  :::
+  :::pokemon[Drapion]
+    - FlameThrower
+  :::
+  :::pokemon[Venusaur]
+    - FlameThrower*
+  :::
+:::::
+
+Leave the gym
+
+Again go through the top exit
+
+After talking to Herschel 
+- Use Max Repel
+- Give Lucky Egg Back
+- Teach Rock Climb to zigzagoon/bidoof
+
+Surf to avoid the Black Belt
+
+:::::trainer[Hiker Costanzo]
+  :::pokemon[Golbat]
+    - Flame Wheel(x2)/FlameThrower
+    - Flame Wheel always kills in Blaze
+    :::if{source="Chimchar" condition="atk=(x / 18-21 / x)"}
+    - 31.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 22-24 / 1)"}
+    - 37.5% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 25-28 / 2-5)"}
+    - 43.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 29-30 / 6-7)"}
+    - 56.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / 31 / 8-13)"}
+    - 62.5% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 14-17)"}
+    - 68.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 18-19)"}
+    - 75% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 20-23)"}
+    - 81.3% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 24)"}
+    - 93.8% to OHKO without Blaze
+    :::
+    :::if{source="Chimchar" condition="atk=(x / x / 25-31)"}
+    - 100% to OHKO without Blaze
+    :::
+  :::
+  :::pokemon[Swoobat]
+    - Flame Wheel
+    - Do not learn Acrobatics
   :::
 :::::
